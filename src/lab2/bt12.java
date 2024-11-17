@@ -1,5 +1,5 @@
 //12. Nhâp vao hai sô nguyên a, b. In ra man hinh gia tri lơn nhât.
-package lab2
+package lab2;
 import java.util.Scanner;
 public class bt12 {
     public static void main(String[] args) {

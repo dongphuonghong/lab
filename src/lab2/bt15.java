@@ -1,4 +1,4 @@
-//15 Solve and discuss the equation: ax + b = 0
+//15 Giải và biêṇ luâṇ phương trình: ax + b = 0
 package lab2;
 import java.util.Scanner;
 public class bt15 {
@@ -12,7 +12,7 @@ public class bt15 {
         if(a == 0){
             if(b == 0){
                 System.out.println("Phuong trinh vo so nghiem");
-            } else {
+            } else if(b != 0){
                 System.out.println("Phuong trinh vo nghiem");
             }
         } else {
