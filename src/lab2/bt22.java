@@ -1,4 +1,3 @@
-/**
   /**
  * 22.	Nhâp vạ ̀o 3 số nguyên dương. Kiểm tra xem 3 số đó có lâp thạ ̀nh tam giác không? Nếu có hãy cho biết tam giác đó thuôc loạ i nạ ̀o? (Cân, vuông, đều, …). 
   */

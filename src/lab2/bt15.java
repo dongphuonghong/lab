@@ -24,4 +24,4 @@ public class bt15 {
         sc.close();
     }
     }//end main
-}//end class
+}//end clas

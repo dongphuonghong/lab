@@ -1,5 +1,4 @@
 /**
- * /**
  * 21.	Viết chương trinh tì	́nh tiền cước TAXI. Biết rằng: 
 -	km đầu tiên là 13000đ.  
 -	Mỗi km tiếp theo là 12000đ.  

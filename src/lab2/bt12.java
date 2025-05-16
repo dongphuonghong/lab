@@ -6,44 +6,33 @@ public class bt12 {
         //tạo ra biến a và b nhận giá trị số nguyên của người dùng nhập vào từ bàn phím
         int a, b;
         try (Scanner sc = new Scanner(System.in)) {
-System.out.println("Nhap a: ");
-a = sc.nextInt();
-System.out.println("Nhap b: ");
-b = sc.nextInt();
+            System.out.println("Nhap a: ");
+            a = sc.nextInt();
+            System.out.println("Nhap b: ");
+            b = sc.nextInt();
 //đóng scanner
-sc.close();
+            sc.close();
 //tạo ra biến max để lưu giá trị lớn nhất giả định là a
- int max = a;
- //nếu b lớn hơn max thì gán max = b
-    if (b > max) {
-        max = b;
-    }
-    //in ra kết quả
-    System.out.println("So lon nhat la: " + max);
-}
+            int max = a;
+            //nếu b lớn hơn max thì gán max = b
+            if (b > max) {
+                max = b;
+            }
+            //in ra kết quả
+            System.out.println("So lon nhat la: " + max);
+        }
     }//end main
 }//end class
 //cách 2
 /**
- import java.util.Scanner;
-public class bt12edit{
-    public static void main(String[] args) {
-tạo ra biến a và b nhận giá trị số nguyên của người dùng nhập vào từ bàn phím
-        int a, b;
-try (Scanner sc = new Scanner(System.in)) {
-System.out.println("Nhap a: ");
-a = sc.nextInt();
-System.out.println("Nhap b: ");
-b = sc.nextInt();
-//đóng scanner
-sc.close();
-tìm số lớn nhất bằng cách sử dụng hàm max của lớp Math
- int max=Math.max(a,b);
-    System.out.println("So lon nhat la: " + max);
-}
-}//end main
-}//end class
-*/
+ * import java.util.Scanner; public class bt12edit{ public static void
+ * main(String[] args) { tạo ra biến a và b nhận giá trị số nguyên của người
+ * dùng nhập vào từ bàn phím int a, b; try (Scanner sc = new Scanner(System.in))
+ * { System.out.println("Nhap a: "); a = sc.nextInt(); System.out.println("Nhap
+ * b: "); b = sc.nextInt(); //đóng scanner sc.close(); tìm số lớn nhất bằng cách
+ * sử dụng hàm max của lớp Math int max=Math.max(a,b); System.out.println("So
+ * lon nhat la: " + max); } }//end main }//end class
+ */
 //cách 3
 /**
  * import java.util.Scanner;
