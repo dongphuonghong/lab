@@ -13,14 +13,13 @@ try (Scanner sc = new Scanner(System.in)) {
                 // Khởi tạo biến giai thừa ban đầu là 1
         int giaithua=1;
                 // Khởi tạo biến sum để lưu tổng các giai thừa
-
-        int sum=0;
+                double sum=1;
                 // Dùng vòng lặp for để tính từng giai thừa từ 1 đến n và cộng dồn vào sum
         for (int i=1; i<=n; i++) {
             // Cập nhật giai thừa tại bước i
             giaithua*=i;
             // Cộng giai thừa hiện tại vào tổng
-            sum+=giaithua;
+            sum +=(double)1/giaithua; 
         }
                 // In kết quả tổng S(n) ra màn hình
 System.out.println("S = " + sum);

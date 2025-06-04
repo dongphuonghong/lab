@@ -19,8 +19,8 @@ for(int i=1; i<=n; i++){
 // Cộng dồn vào biến t (t = 1 + 2 + ... + i)
 t += i;
 // Cộng 1/t vào tổng sum
-sum += 1.0/t;
+sum +=(double)1/t;
 }
     System.out.printf("Tong S = %.4f", sum);
     }//end main
-}//end class2
+}//end class

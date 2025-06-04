@@ -18,7 +18,7 @@ try (Scanner sc = new Scanner(System.in)) {
                 // Khởi tạo biến giai thừa bằng 1
         int giaithua = 1;
                 // Dùng vòng lặp for để nhân từ 1 đến n
-    for (int i = 1; i <= n; i++) {
+    for (int i = 2; i <= n; i++) {
         giaithua *=i;
     }
                 // In kết quả giai thừa ra màn hình

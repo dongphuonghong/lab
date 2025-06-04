@@ -16,8 +16,7 @@ System.out.print("Nhap x: ");
         x = sc.nextDouble();
         }    
                 // Khởi tạo biến sum để lưu tổng các lũy thừa
-
-            int sum=0;
+            double sum=0;
             // Khởi tạo biến luythua để lưu lũy thừa, bắt đầu từ 1
     double luythua=1;
             // Dùng vòng lặp for để tính tổng từ 1 đến n
@@ -60,5 +59,5 @@ sum += Math.pow(x, i);
                 // In ra kết quả tổng P(x, n)
         System.out.println("Tong la: " + sum);
 }//end main
-}//end class bt40_1
+}//end class 
  */
