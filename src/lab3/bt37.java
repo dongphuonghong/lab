@@ -1,4 +1,4 @@
-// 37. Tinh,  vơi! 1 ! 3 1 ! 2 1 1 ) ( n n S      
+// 37. Tính tổng nghịch đảo các giai thừa S(n) = 1/1! + 1/2! + 1/3! + ... + 1/n!      
 package lab3;
 import java.util.Scanner;
 public class bt37 {

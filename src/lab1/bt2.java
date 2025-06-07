@@ -1,6 +1,9 @@
+// 2. In bài thơ "Xuân về"
+// Chương trình in ra màn hình một bài thơ về mùa xuân
 package lab1;
 public class bt2 {
 public static void main(String[] args) {
+    // In từng dòng của bài thơ ra màn hình
     System.out.println("xuan ve");
     System.out.println("tung dan con tre chay xum xue");
     System.out.println("mua lanh troi quang nang moi hoe)");
@@ -11,5 +14,5 @@ public static void main(String[] args) {
         System.out.println("tren duong cat min 1 doi co");
         System.out.println("yem do khan tham tray hoi chua gay truc dat ba gia toc bac");
         System.out.println("tay lan chang hat mieng niem nammo");                  
-}
-}
+}//end main
+}//end class

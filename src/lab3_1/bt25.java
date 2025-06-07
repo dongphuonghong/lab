@@ -66,8 +66,7 @@ public class bt25_1 {
             a = temp;
         }
         // Khi vòng lặp kết thúc, a chính là UCLN
-        int ucln = a;
-   
+        int ucln = a;   
         // Tính BCNN theo công thức: (x * y) / UCLN
         int bcnn = (x * y) / ucln;        
         // In kết quả

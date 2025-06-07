@@ -3,5 +3,15 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-    ]
+    ],
+        "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-24",
+            "path": "C:\\Program Files\\Java\\jdk-24",
+            "default": true
+        }
+    ],
+    "java.configuration.compileWithPreview": true,
+    "java.configuration.javaCompiler.source": "24",
+    "java.configuration.javaCompiler.target": "24"
 }

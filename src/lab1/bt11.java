@@ -1,3 +1,5 @@
+// 11. Tính diện tích và chu vi các hình học
+// Chương trình tính diện tích và chu vi của hình tam giác, hình vuông và hình chữ nhật
 package lab1;
 import java.util.Scanner;
 public class bt11 {
@@ -36,6 +38,6 @@ System.out.println("dien tich tam giac la: "+dien_tich);
         System.out.println("dien tich hinh tron la: "+dientich_hinhtron);
         System.out.println("chu vi hinh tron la: "+chuvi_hinhtron);
                sc.close();
-        }
+        }//end try
 }//end main
 }//end class

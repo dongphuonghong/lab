@@ -19,7 +19,7 @@ public class bt24 {
                 while (i <= Math.sqrt(n)) {
                     //kiểm tra nếu có ước nào chia hết cho n thì n không phải số nguyên tố
                     if (n % i == 0) {
-                        System.out.println(n + " không phải là số nguyên tố");
+                System.out.println(n + " không phải là số nguyên tố");
                         //thoát khỏi vòng lặp khi đã tìm thấy ước số
                         break;
                     }
