@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "github.copilot"
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-ai",
+        "ms-toolsai.vscode-ai-insiders",
+        "ms-toolsai.vscode-ai-remote",
+        "ms-toolsai.vscode-ai-remote-insiders",
+        "ms-toolsai.vscode-ai-remote-server",
+        
+    ]
+}

@@ -11,13 +11,10 @@ System.out.print("Nhap n: ");
             n = sc.nextInt();
         }
                 // Khởi tạo biến sum để lưu tổng bình phương các số tự nhiên từ 1 đến n
-
-        int sum=0;
+int sum=0;
                 // Dùng vòng lặp for để duyệt qua từng số từ 1 đến n
-
         for(int i=1; i<=n; i++){
                         // Cộng bình phương của i vào biến sum (i * i là i bình phương)
-
             sum += i*i;
         }
                 // In ra kết quả tổng S(n)
@@ -41,7 +38,7 @@ System.out.print("Nhap n: ");
         int sum=0;
                 // Dùng vòng lặp for để duyệt qua từng số từ 1 đến n
         for(int i=1; i<=n; i++){
-            sum+=Math.pow(i,2); // Tính bình phương của i và cộng dồn vào sum
+            sum+=Math.pow(i,2); 
         }
                 // In ra kết quả tổng S(n)
 System.out.println("Tong S = " + sum);

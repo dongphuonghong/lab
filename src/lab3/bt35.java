@@ -15,7 +15,7 @@ double  sum=0;
         // Dùng vòng lặp for để tính tổng các phân số từ 1 đến 1/(n+1)
     for(int i=1; i<=n+1; i++){
                     // Cộng dồn 1/i vào biến sum (ép kiểu để đảm bảo chia thực)
-        sum+=(double)1/i;
+        sum += (int) Math.pow(i, i + 1); 
     }
             // In ra kết quả tổng S(n)
 System.out.println("Tong S = " + sum);    

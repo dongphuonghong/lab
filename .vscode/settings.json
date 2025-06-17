@@ -13,5 +13,6 @@
     ],
     "java.configuration.compileWithPreview": true,
     "java.configuration.javaCompiler.source": "24",
-    "java.configuration.javaCompiler.target": "24"
+    "java.configuration.javaCompiler.target": "24",
+    "java.debug.settings.onBuildFailureProceed": true
 }

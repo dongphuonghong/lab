@@ -39,7 +39,6 @@ public class bt33_1 {
             // Khởi tạo biến sum để lưu tổng
 int sum=0;
         // Dùng vòng lặp for để tính tổng bình phương từ 1 đến n
-
 for(int i=1; i<=n; i++){
                 // Dùng hàm Math.pow để tính lũy thừa i^2, sau đó ép kiểu về int
 sum+=(int)Math.pow(i,2);
