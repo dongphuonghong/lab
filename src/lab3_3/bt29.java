@@ -25,8 +25,7 @@ return n;
 System.out.println("ban vui long nhap lai n >0");
 }
 } while (true);
-
-
+}
 // Hàm tính tích các số lẻ: P(n) = 1 × 3 × 5 × ... × (2n+1)
 // Với mỗi i từ 0 đến n, tính (2*i + 1) và nhân vào tích
 public static int tinhTichLe(int n) {

@@ -1,9 +1,7 @@
-// 25. Viết chương trình nhập vào hai số nguyên dương a và b. Tìm ước số chung lớn nhất và bội số chung nhỏ nhất 
-//ước số chung lớn nhất (UCLN) của hai số nguyên dương a và b là số nguyên dương lớn nhất chia hết cho cả a và b.
-//bội số chung nhỏ nhất (BCNN) của hai số nguyên dương a và b là số nguyên dương nhỏ nhất chia hết cho cả a và b.
-package lab3_3;
+// 53. Viêt chương trinh nhâp 2 sô nguyên dương a, b. Tim USCLN va BSCNN cua hai sô nguyên đo.
+package lab4;
 import java.util.Scanner;
-public class bt25 {
+public class bt53 {
 public static void main(String[] args) {
     // Nhập hai số nguyên dương a và b từ bàn phím
     // Sử dụng hàm nhập để lấy giá trị a và b từ người dùng
@@ -17,11 +15,12 @@ int ucln = ucln(a, b);
     System.out.println("UCLN cua " + a + " va " + b + " la: " + ucln);
     System.out.println("BCNN cua " + a + " va " + b + " la: " + bcnn);
     sc.close();
-        }//end main
-        // Hàm nhập số nguyên từ bàn phím
+}//end main
+//đây là hàm nhập số nguyên từ bàn phím
       static   Scanner sc = new Scanner(System.in);
         public static int nhap(String chuoi){
-System.out.print(chuoi);    
+            
+    System.out.print(chuoi);    
         return sc.nextInt();
         }
 // Hàm tính ước số chung lớn nhất (UCLN) bằng thuật toán Euclid

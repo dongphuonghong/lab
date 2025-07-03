@@ -1,0 +1,48 @@
+// 65. Viết chương trình nhập vào một số nguyên n gồm tối đa 10 chữ số (4 bytes). 
+// In ra màn hình giá trị nhị phân của số trên. 
+// (Hướng dẫn: chia lấy dư cho 2 và xuất theo thứ tự ngược lại).
+package lab5;
+import java.util.Scanner;
+public class bt65 {
+public static void main(String[] args) {
+        // Nhập số nguyên không âm từ bàn phím
+        int n = nhap("Nhap n >= 0: ");        
+        // Chuyển đổi và in giá trị nhị phân
+        String binary = chuyenSangNhiPhan(n);
+        System.out.println("Gia tri nhi phan cua " + n + " la: " + binary);
+    }//end main
+
+// Hàm nhập số nguyên không âm từ bàn phím
+// Kiểm tra điều kiện n >= 0
+// Trả về số nguyên hợp lệ
+public static int nhap(String chuoi){
+    int n;
+    System.out.println(chuoi);
+    do {
+        try(Scanner sc=new Scanner(System.in)){    
+            n=sc.nextInt();
+            if (n >= 0) {
+                return n;
+            }
+            System.out.println("Ban vui long nhap lai n >= 0");
+        }
+    } while (true); 
+}
+
+// Hàm chuyển đổi số thập phân sang nhị phân
+// Sử dụng phương pháp chia liên tiếp cho 2 và lấy phần dư
+// Các bit được tạo ra theo thứ tự ngược (từ LSB đến MSB)
+// Tham số: n - số thập phân cần chuyển đổi
+// Trả về: chuỗi biểu diễn nhị phân
+public static String chuyenSangNhiPhan(int n) {
+    StringBuilder binary = new StringBuilder();
+    if (n == 0) {
+        return "0"; 
+    }
+    while (n > 0) {
+        binary.append(n % 2); 
+        n /= 2; 
+    }
+    return binary.reverse().toString(); 
+}
+}//end class
