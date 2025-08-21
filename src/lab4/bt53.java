@@ -1,7 +1,7 @@
 // 53. Viêt chương trinh nhâp 2 sô nguyên dương a, b. Tim USCLN va BSCNN cua hai sô nguyên đo.
 package lab4;
 import java.util.Scanner;
-public class bt53 {
+public class Bt53 {
 public static void main(String[] args) {
     // Nhập hai số nguyên dương a và b từ bàn phím
     // Sử dụng hàm nhập để lấy giá trị a và b từ người dùng

@@ -1,7 +1,7 @@
 // 37. Tính tổng nghịch đảo các giai thừa S(n) = 1/1! + 1/2! + 1/3! + ... + 1/n!      
 package lab3;
 import java.util.Scanner;
-public class bt37 {
+public class Bt37 {
     public static void main(String[] args) {
         int n;
         // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím

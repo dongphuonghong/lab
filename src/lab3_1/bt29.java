@@ -3,7 +3,7 @@
 // Đây là tích của dãy các số lẻ liên tiếp bắt đầu từ 1 đến (2n + 1)
 package lab3_1;
 import java.util.Scanner;
-public class bt29 {
+public class Bt29 {
     public static void main(String[] args) {
         // Nhập số nguyên dương n từ bàn phím
         int n;

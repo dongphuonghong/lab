@@ -1,7 +1,7 @@
 // 33. Tính S(n) = 1² + 2² + 3² + ... + n², với n >= 1
 package lab3_3;
 import java.util.Scanner;
-public class bt33 {
+public class Bt33 {
 public static void main(String[] args) {
     // Nhập số nguyên dương n từ bàn phím
 int n = nhap("Nhap n >0");

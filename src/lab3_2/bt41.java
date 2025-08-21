@@ -1,7 +1,7 @@
 // 41. Tính S = x² + x⁴ + x⁶ + ... + x^(2n) (Tổng lũy thừa chẵn của x)
 package lab3_2;
 import java.util.Scanner;
-public class bt41 {
+public class Bt41 {
     public static void main(String[] args) {
         // Nhập n và x từ bàn phím
         int n;
@@ -25,4 +25,4 @@ do {
         // In kết quả tổng S(n, x)
         System.out.printf("Tổng S = %.4f", sum);
     } // end main
-} // end class bt41
+} // end class Bt41

@@ -1,7 +1,7 @@
 // 49. Viêt chương trinh tinh tiên thuê may dich vu Internet va in ra man hinh kêt qua. Vơi dư liêu nhâp vao la giơ băt đâu thuê (GBD), giơ kêt thuc thuê (GKT), sô may thuê (SoMay).- Điêu kiên cho dư liêu nhâp: 6<=GBD<GKT<=21. Giơ la sô nguyên.- Đơn gia: 2500đ cho môi giơ may trươc 17giờ va 3000đ cho môi giơ may từ sau 17.
 package lab4;
 import java.util.Scanner;
-public class bt49 {
+public class Bt49 {
     public static void main(String[] args) {
         //gọi hàm nhập giờ bắt đầu và giờ kết thúc
     int gbd, gkt;

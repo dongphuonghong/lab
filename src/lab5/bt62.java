@@ -1,7 +1,7 @@
 // 62. Viết chương trình nhập vào số nguyên dương n, in ra màn hình n số nguyên tố đầu tiên.
 package lab5;
 import java.util.Scanner;
-public class bt62 {
+public class Bt62 {
 public static void main(String[] args) {
     // Nhập số nguyên dương từ bàn phím
     int n = nhap("Nhap n > 0: ");    

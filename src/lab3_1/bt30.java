@@ -2,7 +2,7 @@
 // Gồm hai phần: tổng dãy số lẻ từ 1 đến (2n + 1) và tổng các số tự nhiên từ 1 đến n
 package lab3_1;
 import java.util.Scanner;
-public class bt30 {
+public class Bt30 {
     public static void main(String[] args) {
         // Nhập số nguyên dương n từ bàn phím
         int n;

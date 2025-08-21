@@ -1,7 +1,7 @@
 // 36. Tính S = 1² + 2³ + 3⁴ + ... + n^(n+1) (Tổng lũy thừa tăng dần)
 package lab3_2;
 import java.util.Scanner;
-public class bt36 {
+public class Bt36 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
         int n;
@@ -23,4 +23,4 @@ public class bt36 {
         // In kết quả tổng S(n)
         System.out.println("Tổng S = " + sum);
     } // end main
-} // end class bt36
+} // end class Bt36

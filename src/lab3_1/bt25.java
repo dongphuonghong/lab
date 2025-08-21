@@ -3,7 +3,7 @@
 //bội số chung nhỏ nhất (BCNN) của hai số nguyên dương a và b là số nguyên dương nhỏ nhất chia hết cho cả a và b.
 package lab3_1;
 import java.util.Scanner;
-public class bt25 {
+public class Bt25 {
     public static void main(String[] args) {
         // Nhập hai số nguyên dương từ bàn phím
         int a, b;
@@ -41,7 +41,7 @@ public class bt25 {
 /* 
  * package lab3_1;
 import java.util.Scanner;
-public class bt25_1 {
+public class Bt25_1 {
     public static void main(String[] args) {
         // Nhập hai số nguyên dương từ bàn phím
         int a, b;

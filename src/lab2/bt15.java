@@ -1,7 +1,7 @@
 //15 Giải và biêṇ luâṇ phương trình: ax + b = 0
 package lab2;
 import java.util.Scanner;
-public class bt15 {
+public class Bt15 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             //tạo biến a, b nhập từ bàn phím

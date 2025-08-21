@@ -1,7 +1,7 @@
 // 42. In ra dãy số Fibonacci (Dãy số mà mỗi số bằng tổng hai số trước đó)
 package lab3_2;
 import java.util.Scanner;
-public class bt42 {
+public class Bt42 {
     public static void main(String[] args) {
         // Nhập số nguyên dương N từ bàn phím
         int n;
@@ -31,4 +31,4 @@ public class bt42 {
         // In dòng mới sau khi in dãy số
 System.out.println(); // In dòng mới sau khi in dãy số
     } // end main
-} // end class bt42
+} // end class Bt42

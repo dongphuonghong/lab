@@ -3,7 +3,7 @@
  */
 package lab2;
 import java.util.Scanner;
- public class bt19 {
+ public class Bt19 {
     public static void main(String[] args) {
         //tạo biến n và nhập giá trị từ bàn phím gồm 3 chữ số 
         int n,tram,chuc,donvi;
@@ -31,7 +31,7 @@ sc.close();
 //cách 2 sử dụng hoán vị
 /**
  *  import java.util.Scanner;
-public class bt19edit1 {
+public class Bt19edit1 {
     public static void main(String[] args) {
                 //tạo biến n và nhập giá trị từ bàn phím gồm 3 chữ số 
                 int n,tram,chuc,donvi;
@@ -83,7 +83,7 @@ if(tram > chuc){
 //cách 3 sử dụng toán tử 3 ngôi
 /**
  * import java.util.Scanner;
-public class bt19edit {
+public class Bt19edit {
     public static void main(String[] args) {
         //tạo biến n và nhập giá trị từ bàn phím gồm 3 chữ số 
         int n,tram,chuc,donvi;
@@ -116,7 +116,7 @@ System.out.println("thu tu tang dan la: "+min+" "+mid+" "+max);
 //cách 4 sử dụng if else
 /**
  *  import java.util.Scanner;
-public class bt19edit1 {
+public class Bt19edit1 {
     public static void main(String[] args) {
                 //tạo biến n và nhập giá trị từ bàn phím gồm 3 chữ số 
                 int n,tram,chuc,donvi;

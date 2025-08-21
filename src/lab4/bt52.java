@@ -3,7 +3,7 @@
 // dx + ey = f
 package lab4;
 import java.util.Scanner;
-public class bt52 {
+public class Bt52 {
     public static void main(String[] args) {
         // Nhập 6 hệ số của hệ phương trình từ bàn phím
         // Hệ phương trình: ax + by = c và dx + ey = f

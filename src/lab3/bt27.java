@@ -1,7 +1,7 @@
 // 27. Môt sô hoan thiên la môt sô co tông cac ươc sô cua no (không kê no) băng chinh no. Hay nhập vào số nguyên dương n và kiểm tra xem n có phải là số hoàn thiện không.Vi du: sô 6 la sô hoan thiên vi tông cac ươc sô la 1+2+3 = 6.
 package lab3;
 import java.util.Scanner;
-public class bt27 {
+public class Bt27 {
 public static void main(String[] args) {
 try (Scanner sc = new Scanner(System.in)) {
                 // Nhập số nguyên dương từ bàn phím
@@ -29,7 +29,7 @@ System.out.println(n + " khong phai la so hoan thien.");
  * 
  * package lab3;
 import java.util.Scanner;
-public class bt27_1 {
+public class Bt27_1 {
  public static void main(String[] args) {
                 // Nhập số nguyên dương từ bàn phím
     int n,sum=0;

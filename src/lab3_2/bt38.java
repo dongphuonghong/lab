@@ -1,7 +1,7 @@
 // 38. Tính S = 1 + (1+2)/2! + (1+2+3)/3! + ... + (1+2+...+n)/n!               
 package lab3_2;
 import java.util.Scanner;
-public class bt38 {
+public class Bt38 {
 public static void main(String[] args) {
     // Nhập vào số nguyên n từ bàn phím
                             int n;

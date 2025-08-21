@@ -1,7 +1,7 @@
 // 63. Viết chương trình nhập vào số nguyên dương n, in ra màn hình các số hoàn thiện nhỏ hơn 5000.
 package lab5;
 import java.util.Scanner;
-public class bt63 {
+public class Bt63 {
     public static void main(String[] args) {
         // Nhập số nguyên dương từ bàn phím
         int n = nhap("Nhap n > 0: ");        

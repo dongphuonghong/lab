@@ -2,7 +2,7 @@
 // Tổng các lũy thừa với số mũ tăng dần
 package lab3_1;
 import java.util.Scanner;
-public class bt36 {
+public class Bt36 {
     public static void main(String[] args) {
         // Nhập số nguyên dương n từ bàn phím
         int n;

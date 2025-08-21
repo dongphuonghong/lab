@@ -2,7 +2,7 @@
 // Ví dụ: Đối xứng: 13531, Không đối xứng: 13921
 package lab5;
 import java.util.Scanner;
-public class bt56 {
+public class Bt56 {
 public static void main(String[] args) {
     // Nhập số nguyên dương gồm 5 chữ số từ bàn phím
     int n = nhap("Nhap so nguyen duong n gom 5 chu so: ");    

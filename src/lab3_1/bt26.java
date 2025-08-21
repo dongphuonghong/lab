@@ -1,7 +1,7 @@
 // 26. Viêt chương trinh đêm sô ươc sô cua sô nguyên dương N.Vi du:  N=12sô ươc sô cua 12 la 6
 package lab3_1;
 import java.util.Scanner;
-public class bt26 {
+public class Bt26 {
     public static void main(String[] args) {
         int n;
         // Nhập số nguyên dương từ bàn phím

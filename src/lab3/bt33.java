@@ -2,7 +2,7 @@
 // Ý tưởng: sử dụng vòng lặp để tính tổng bình phương các số tự nhiên từ 1 đến n
 package lab3;
 import  java.util.Scanner;
-public class bt33 {
+public class Bt33 {
 public static void main(String[] args) {
     int n;
             // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím
@@ -26,7 +26,7 @@ System.out.println("Tong S = " + sum);
 /*
  * package lab3;
 import  java.util.Scanner;
-public class bt33_1 {
+public class Bt33_1 {
     public static void main(String[] args) {
         int n;
         // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím

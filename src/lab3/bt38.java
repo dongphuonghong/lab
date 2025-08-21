@@ -3,7 +3,7 @@
 
 package lab3;
 import java.util.Scanner;
-public class bt38 {
+public class Bt38 {
 public static void main(String[] args) {
                 int n;
         // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím
@@ -37,7 +37,7 @@ public static void main(String[] args) {
 /* 
  * package lab3;
 import java.util.Scanner;
-public class bt38_1 {
+public class Bt38_1 {
     public static void main(String[] args) {
         // Nhập vào số nguyên n từ bàn phím
         int n;

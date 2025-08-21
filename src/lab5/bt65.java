@@ -3,7 +3,7 @@
 // (Hướng dẫn: chia lấy dư cho 2 và xuất theo thứ tự ngược lại).
 package lab5;
 import java.util.Scanner;
-public class bt65 {
+public class Bt65 {
 public static void main(String[] args) {
         // Nhập số nguyên không âm từ bàn phím
         int n = nhap("Nhap n >= 0: ");        

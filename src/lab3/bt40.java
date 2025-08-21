@@ -1,7 +1,7 @@
 // 40. Tinh.y x y x P  ) , (
 package lab3;
 import java.util.Scanner;
-public class bt40 {
+public class Bt40 {
 public static void main(String[] args) {
     int n;
     double x;
@@ -36,7 +36,7 @@ luythua *= x;
 /* 
  * package lab3;
 import java.util.Scanner;
-public class bt40_1 {
+public class Bt40_1 {
     public static void main(String[] args) {
         int n;
         double x;

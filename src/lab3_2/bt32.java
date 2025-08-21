@@ -1,7 +1,7 @@
 // 32. Tính S = 1! + 2! + 3! + ... + n! (Tổng các giai thừa)
 package lab3_2;
 import java.util.Scanner;
-public class bt32 {
+public class Bt32 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
         int n;

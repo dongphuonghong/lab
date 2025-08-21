@@ -2,7 +2,7 @@
 // (Với 0 < k <= 5)/ 57. Viêt chương trinh nhâp sô nguyên dương n gôm k chư sô, đêm xem n co bao nhiêu chư sô chăn va bao nhiêu chư sô le.) 5 0 (  k
 package lab5;
 import java.util.Scanner;
-public class bt57 {
+public class Bt57 {
 public static void main(String[] args) {
         // Nhập số nguyên dương từ bàn phím
         int n = nhap("Nhap so nguyen duong n (1 <= n <= 9999): ");        

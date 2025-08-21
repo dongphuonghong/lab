@@ -2,7 +2,7 @@
 // Tổng của (i³ + i² + i) với i từ 1 đến n
 package lab3_1;
 import java.util.Scanner;
-public class bt35 {
+public class Bt35 {
     public static void main(String[] args) {
         // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím
         int n;

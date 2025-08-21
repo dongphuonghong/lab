@@ -1,7 +1,7 @@
 // 28. Tính n! với n >= 0 (Giai thừa của n)
 package lab3_2;
 import java.util.Scanner;
-public class bt28 {
+public class Bt28 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
         int n;
@@ -25,4 +25,4 @@ public class bt28 {
 System.out.println("Giai thừa của " + n + " là: " + giaithua);
         }
     } // end main
-} // end class bt28
+} // end class Bt28

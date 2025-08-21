@@ -1,0 +1,16 @@
+        int[] a = {12, 5, 7, 9, 21, 38};
+        int x = 111;         
+int k = 3;   
+        int[] b = new int[a.length + 1];
+        for (int i = 0; i < k; i++) {
+            b[i] = a[i];
+        }
+
+        // Chèn phần tử mới
+        b[k] = x;
+        for (int i = k; i < a.length; i++) {
+            b[i + 1] = a[i];
+        }
+        System.out.println("Mảng sau khi chèn: " + Arrays.toString(b));
+    }
+}

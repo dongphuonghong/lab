@@ -6,7 +6,7 @@
 */
 package lab2;
 import    java.util.Scanner;
-public class bt21 {
+public class Bt21 {
      public static void main(String[] args) {
           //tạo biến n nhập từ bàn phím 
         int n;

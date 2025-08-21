@@ -1,7 +1,7 @@
 // 28. Tính n! (giai thừa), với n >= 0/ 28. Tính n! (giai thừa), với n >= 0/ 28. Tinh n!,  vơi0  n
 package lab3_3;
 import java.util.Scanner;
-public class bt28 {
+public class Bt28 {
 public static void main(String[] args) {
     // Nhập số nguyên dương n từ bàn phím
 int n= nhap("nhap n >0");

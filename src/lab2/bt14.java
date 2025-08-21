@@ -1,7 +1,7 @@
 //14Cho ba sô a, b, c đoc vao tư ban phim. Hay in ra man hinh theo thư tư tăng dân cac sô.
 package lab2;
 import java.util.Scanner;
-public class bt14{
+public class Bt14{
     public static void main(String[] args) {
                 //khai báo biến a,b,c nhập từ bàn phím
 int a,b,c;
@@ -39,7 +39,7 @@ try (Scanner sc = new Scanner(System.in)) {
 //cách 2 sử dụng hàm Math.max và Math.min
 /**
  * import java.util.Scanner;
-public class bt14edit {
+public class Bt14edit {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
         //tạo biến a, b, c nhập từ bàn phím
@@ -66,7 +66,7 @@ public class bt14edit {
 //cách 3 sử dụng toán tử 3 ngôi
 /**
  * import java.util.Scanner;
-public class bt14edit {
+public class Bt14edit {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
         //Nhap vao 3 so a,b,c tu ban phim
@@ -94,7 +94,7 @@ public class bt14edit {
 // cách 4 so sánh từng cặp số bằng cách sử dụng phép  hoán vị
 /**
  * import java.util.Scanner;
-public class bt14{
+public class Bt14{
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
         //tạo biến a, b, c nhập từ bàn phím
@@ -145,7 +145,7 @@ public class bt14{
 /**
  * //Cho ba sô a, b, c đoc vao tư ban phim. Hay in ra man hinh theo thư tư tăng dân cac sô.
 import java.util.Scanner;
-public class bt14edit {
+public class Bt14edit {
     public static void main(String[] args) {
         try(Scanner sc = new Scanner(System.in)) {
         //tạo biến a, b, c nhập từ bàn phím

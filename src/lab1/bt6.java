@@ -3,7 +3,7 @@
  */
 package lab1;
 import java.util.Scanner;
-public class bt6 {
+public class Bt6 {
     public static void main(String[] args) {
         //tạo biến do_f kiểu double để nhập giá trị từ bàn phím
         double do_f;

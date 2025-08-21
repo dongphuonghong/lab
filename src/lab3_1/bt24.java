@@ -2,7 +2,7 @@
 // Số nguyên tố là số lớn hơn 1, chỉ chia hết cho 1 và chính nó.
 package lab3_1;
 import java.util.Scanner;
-public class bt24 {
+public class Bt24 {
     public static void main(String[] args) {
         // Nhập số nguyên dương n từ bàn phím
         int n;
@@ -16,7 +16,7 @@ public class bt24 {
             } else {
                 //duyệt từ 2 đến căn bậc hai của n để tìm ước số
                 int i = 2;
-                while (i <= Math.sqrt(n)) {
+                while (i*i <= n) {
                     //kiểm tra nếu có ước nào chia hết cho n thì n không phải số nguyên tố
                     if (n % i == 0) {
                 System.out.println(n + " không phải là số nguyên tố");

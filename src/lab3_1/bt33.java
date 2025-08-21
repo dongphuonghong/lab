@@ -2,7 +2,7 @@
 // Ý tưởng: sử dụng vòng lặp để tính tổng bình phương các số tự nhiên từ 1 đến n 33. Tinh,  vơi2 2 2 2 3 2 1 ) ( n n S      
 package lab3_1;
 import java.util.Scanner;
-public class bt33 {
+public class Bt33 {
     public static void main(String[] args) {
         // Nhập vào số nguyên n từ bàn phím
         int n;

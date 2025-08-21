@@ -1,7 +1,7 @@
 // 2. In bài thơ "Xuân về"
 // Chương trình in ra màn hình một bài thơ về mùa xuân
 package lab1;
-public class bt2 {
+public class Bt2 {
 public static void main(String[] args) {
     // In từng dòng của bài thơ ra màn hình
     System.out.println("xuan ve");

@@ -2,7 +2,7 @@
 // Ý tưởng: dùng vòng lặp để tính từng giai thừa từ 1 đến n+1 và cộng dồn vào tổng S
 package lab3;
 import java.util.Scanner;
-public class bt32 {
+public class Bt32 {
 public static void main(String[] args) {
     int n;
     // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím

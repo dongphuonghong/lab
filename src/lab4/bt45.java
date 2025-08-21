@@ -1,7 +1,7 @@
 // 45. Nhâp sô nguyên dương n (n>0). Liêt kê tât ca cac sô nguyên tô nho hơn n.
 package lab4;
 import java.util.Scanner;
-public class bt45 {
+public class Bt45 {
 public static void main(String[] args) {
 //gọi hàm nhập số nguyên dương n từ bàn phím
         int n = nhap("Nhap n >0");
@@ -17,7 +17,7 @@ public static int nhap(String chuoi){
     try(Scanner sc=new Scanner(System.in)){    
         System.out.println(chuoi);
 n=sc.nextInt();
-if (n>=0) {
+if (n>0) {
 return n;
 }
 System.out.println("ban vui long nhap lai n >0");

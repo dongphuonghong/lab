@@ -1,7 +1,7 @@
 package lab2;
 //20.	Nhâp vạ ̀o giờ, phút, giây. Kiểm tra xem giờ, phút, giây đó có hơp lệ hay không? In ̣ kết quả ra màn hinh.̀ 
 import java.util.Scanner;
-public class bt20 {
+public class Bt20 {
     public static void main(String[] args) {
         //tạo biến giờ, phút, giây nhập từ bàn phím
 int gio, phut, giay;        

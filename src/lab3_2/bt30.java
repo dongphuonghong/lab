@@ -1,7 +1,7 @@
 // 30. Tính S = (1 + 3 + 5 + ... + (2n+1)) × (1 + 2 + 3 + ... + n)
 package lab3_2;
 import java.util.Scanner;
-public class bt30 {
+public class Bt30 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
         int n;
@@ -33,4 +33,4 @@ public class bt30 {
         // In ra kết quả
         System.out.println("Kết quả: " + kq);
     } // end main
-} // end class bt30
+} // end class Bt30

@@ -3,7 +3,7 @@
   */
 package lab2;
   import java.util.Scanner;
-public class bt22 {
+public class Bt22 {
     public static void main(String[] args) {
         //tạo biến a,b,c nhập từ bàn phím
         int a,b,c;

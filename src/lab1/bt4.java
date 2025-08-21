@@ -1,7 +1,7 @@
 //4.	Viết chương trình nhập vào 2 số nguyên dương a và b, cho biết kết quả chia lấy phần nguyên và phần dư của a với b.  
 package lab1;
 import java.util.Scanner;
-public class bt4 {
+public class Bt4 {
     public static void main(String[] args) {
         //tạo biến a, b kiểu int để nhập giá trị từ bàn phím
         int a, b;

@@ -1,7 +1,7 @@
 // 54. Viêt chương trinh tinh tông nghich đao cua n giai thưa.
 package lab4;
 import java.util.Scanner;
-public class bt54 {
+public class Bt54 {
 public static void main(String[] args) {
     //gọi hàm nhập để lấy giá trị n từ người dùng
     int n = nhap("Nhap n >0");

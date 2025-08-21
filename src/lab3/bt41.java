@@ -1,7 +1,7 @@
 // 41. Tinh,) 3 2 1 ( ) 3 2 1 ( ) 2 1 ( 1 ) ( n n S              
 package lab3;
 import java.util.Scanner;
-public class bt41 {
+public class Bt41 {
 public static void main(String[] args) {
     int n;
     double x;
@@ -29,7 +29,7 @@ double sum=0;
 /* 
  * package lab3;
 import  java.util.Scanner;
-public class bt41_1 {
+public class Bt41_1 {
 public static void main(String[] args) {
     int n;
     double x;

@@ -2,7 +2,7 @@
 // Ví dụ: Ước số lẻ lớn nhất của 27 là 27 (chính nó).
 package lab5;
 import java.util.Scanner;
-public class bt60 {
+public class Bt60 {
 public static void main(String[] args) {
     // Nhập số nguyên dương từ bàn phím
     int n = nhap("Nhap n > 0: ");    

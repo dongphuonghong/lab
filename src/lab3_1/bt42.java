@@ -2,7 +2,7 @@
 // Chương trình in ra n số đầu tiên trong dãy số Fibonacci
 package lab3_1;
 import java.util.Scanner;
-public class bt42 {
+public class Bt42 {
     public static void main(String[] args) {
         // Khởi tạo biến n để lưu số nguyên dương nhập từ bàn phím
         int n;

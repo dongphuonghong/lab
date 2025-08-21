@@ -1,7 +1,7 @@
 // 29. Tính P(n) = 1 × 3 × 5 × ... × (2n + 1) với n >= 0 (Tích các số lẻ)
 package lab3_2;
 import java.util.Scanner;
-public class bt29 {
+public class Bt29 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
         int n;
@@ -23,4 +23,4 @@ public class bt29 {
 
         System.out.println("P(" + n + ") = " + tich);
     } // end main
-} // end class bt29
+} // end class Bt29

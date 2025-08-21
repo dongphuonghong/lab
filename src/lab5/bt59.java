@@ -2,7 +2,7 @@
 // Ví dụ: Nhập n=6, Tổng các ước số từ 1 đến n: 1+2+3+6=12.
 package lab5;
 import java.util.Scanner;
-public class bt59 {
+public class Bt59 {
 public static void main(String[] args) {
     // Nhập số nguyên dương từ bàn phím
     int n = nhap("Nhap n > 0: ");    

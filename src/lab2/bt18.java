@@ -1,7 +1,7 @@
 //18. Viêt chương trinh nhâp vao môt sô nguyên n gôm ba chư sô. Xuât ra man hinh chư sô lơn nhât ơ vi tri nao Vi du: n=291. Chư sô lơn nhât năm ơ hang chuc chữ số 9.
 package lab2;
 import java.util.Scanner;
-public class bt18 {
+public class Bt18 {
 public static void main(String[] args) {
     //tạo biến n và nhập giá trị từ bàn phím gồm 3 chữ số 
     int n,tram,chuc,donvi;
@@ -37,7 +37,7 @@ if(tram>chuc && tram>donvi){
 //cách 2
 /**
  * import java.util.Scanner;
-public class bt18edit {
+public class Bt18edit {
     public static void main(String[] args) {
         //tạo biến n và nhập giá trị từ bàn phím gồm 3 chữ số 
 int n,tram,chuc,donvi;        
@@ -71,7 +71,7 @@ sc.close();
 //cách 3
 /**
  * import java.util.Scanner;
-public class bt18edit {
+public class Bt18edit {
     public static void main(String[] args) {
         //tạo biếnn và nhập giá trị từ bàn phím gồm 3 chữ số 
 int n,tram,chuc,donvi;        
@@ -106,7 +106,7 @@ if (donvi > max) {
 //cách 4
 /**
  * import java.util.Scanner;
-public class bt18edit {
+public class Bt18edit {
     public static void main(String[] args) {
         //tạo biếnn và nhập giá trị từ bàn phím gồm 3 chữ số 
 int n,tram,chuc,donvi;        

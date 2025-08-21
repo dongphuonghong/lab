@@ -1,7 +1,7 @@
 // 35. Tính S = Σ(i³ + i² + i) từ i=1 đến n (Tổng lũy thừa bậc 3, 2 và 1)
 package lab3_2;
 import java.util.Scanner;
-public class bt35 {
+public class Bt35 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
         int n;
@@ -21,4 +21,4 @@ public class bt35 {
         // In ra kết quả tổng S(n)
         System.out.println("Tổng S = " + sum);
     } // end main
-} // end class bt35
+} // end class Bt35

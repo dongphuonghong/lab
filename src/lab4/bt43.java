@@ -1,7 +1,7 @@
 // 43. Viêt chương trinh tinh diên tich va chu vi cua hinh chư nhât vơi chiêu dai va chiêu rông đươc nhâp tư ban phim.
 package lab4;
 import java.util.Scanner;
-public class bt43 {
+public class Bt43 {
 public static void main(String[] args) {
     // Nhập chiều dài và chiều rộng của hình chữ nhật từ bàn phím
     // Sử dụng hàm nhập để lấy giá trị chiều dài và chiều rộng

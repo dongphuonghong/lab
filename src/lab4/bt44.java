@@ -1,7 +1,7 @@
 // 44. Viêt chương trinh tinh diên tich va chu vi hinh tron vơi ban kinh đươc nhâp tư ban phim.
 package lab4;
 import java.util.Scanner;
-public class bt44 {
+public class Bt44 {
 public static void main(String[] args) {
 // Nhập bán kính hình tròn từ bàn phím
     double banKinh = nhap("Nhập bán kính: ");

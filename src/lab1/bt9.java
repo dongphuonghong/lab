@@ -3,7 +3,7 @@
  */
 package lab1;
 import java.util.Scanner;
-public class bt9 {
+public class Bt9 {
 public static void main(String[] args) {
     //tạo biến a,b kiểu int để nhập giá trị từ bàn phím
     int a,b;
@@ -35,7 +35,7 @@ public static void main(String[] args) {
 //cách 2
 /**
  * import java.util.Scanner;
-public class bt9edit {
+public class Bt9edit {
     public static void main(String[] args) {
 try (Scanner sc = new Scanner(System.in)) {
 int a,b;

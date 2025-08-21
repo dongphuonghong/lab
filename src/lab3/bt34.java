@@ -1,7 +1,7 @@
 // 34. Tinh,  vơin n S 1 3 1 2 1 1 ) (      0  n
 package lab3;
 import java.util.Scanner;
-public class bt34 {
+public class Bt34 {
 public static void main(String[] args) {
     int n;
             // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím

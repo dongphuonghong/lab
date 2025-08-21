@@ -2,7 +2,7 @@
 //     Hãy nhập vào số nguyên dương n và kiểm tra n có phải là số hoàn thiện hay không.
 package lab3_2;
 import java.util.Scanner;
-public class bt27 {
+public class Bt27 {
     public static void main(String[] args) {
         // Nhập số nguyên dương n từ bàn phím
         int n, sum = 0;
@@ -32,4 +32,4 @@ public class bt27 {
             System.out.println(n + " không phải là số hoàn thiện.");
         }
     } // end main
-} // end class bt27
+} // end class Bt27

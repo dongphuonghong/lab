@@ -4,7 +4,7 @@
 // Nếu số đang xét là số chẵn → trừ khỏi tổng.
 package lab3;
 import java.util.Scanner;
-public class bt31 {
+public class Bt31 {
 public static void main(String[] args) {
     int n;
     // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím
@@ -35,7 +35,7 @@ sum -= i;
 /*
  * package lab3;
 import java.util.Scanner;
-public class bt31_1 {
+public class Bt31_1 {
 public static void main(String[] args) {
     int n;
     // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím

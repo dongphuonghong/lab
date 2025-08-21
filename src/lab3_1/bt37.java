@@ -2,7 +2,7 @@
 // Tổng nghịch đảo các giai thừa từ 1! đến n!
 package lab3_1;
 import java.util.Scanner;
-public class bt37 {
+public class Bt37 {
     public static void main(String[] args) {
         // Nhập vào số nguyên n từ bàn phím
         int n;

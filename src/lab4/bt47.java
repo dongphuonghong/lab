@@ -1,7 +1,7 @@
 // 47. Nhâp sô nguyên dương n (n>0). Đêm xem co bao nhiêu sô hoan thiên < n.
 package lab4;
 import java.util.Scanner;
-public class bt47 {
+public class Bt47 {
     public static void main(String[] args) {
         //gọi hàm nhập số nguyên dương n từ bàn phím
         int n = nhap("Nhap n >0");

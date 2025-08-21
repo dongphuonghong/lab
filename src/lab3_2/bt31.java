@@ -1,7 +1,7 @@
 // 31. Tính S = 1 - 2 + 3 - 4 + ... + (-1)^(n+1) * n (Tổng dãy có dấu xen kẽ)
 package lab3_2;
 import java.util.Scanner;
-public class bt31 {
+public class Bt31 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
         int n;

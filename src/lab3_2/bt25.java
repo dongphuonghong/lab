@@ -1,7 +1,7 @@
 // 25. Viết chương trình nhập vào hai số nguyên dương a và b. Tìm ước số chung lớn nhất và bội số chung nhỏ nhất.
 package lab3_2;
 import java.util.Scanner;
-public class bt25 {
+public class Bt25 {
     public static void main(String[] args) {
         // Nhập hai số nguyên dương a và b từ bàn phím
         int a, b;
@@ -34,4 +34,4 @@ public class bt25 {
         // In ra BCNN
         System.out.println("BCNN: " + bcnn);
     } // end main
-} // end class bt25
+} // end class Bt25

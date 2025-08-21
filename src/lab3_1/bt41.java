@@ -2,7 +2,7 @@
 // Tổng các lũy thừa chẵn của x từ x² đến x^(2n)
 package lab3_1;
 import java.util.Scanner;
-public class bt41 {
+public class Bt41 {
     public static void main(String[] args) {
         // Nhập vào số nguyên dương n và số thực x từ bàn phím
         int n;

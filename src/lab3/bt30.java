@@ -2,7 +2,7 @@
 // Gồm hai phần: tổng dãy số lẻ từ 1 đến (2n + 1) và tổng các số tự nhiên từ 1 đến n
 package lab3;
 import java.util.Scanner;
-public class bt30 {
+public class Bt30 {
 public static void main(String[] args) {
     int n;
             // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím
@@ -36,7 +36,7 @@ System.out.println("Ket qua: "+kq);
  * 
  * package lab3;
 import java.util.Scanner;
-public class bt30_1 {
+public class Bt30_1 {
     public  static void main(String[] args) {
         int n;
 // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím

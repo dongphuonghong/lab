@@ -3,7 +3,7 @@
  */
 package lab1;
 import java.util.Scanner;
-public class bt8 {
+public class Bt8 {
     public static void main(String[] args) {
         //tạo biến congviet kiểu double để nhập giá trị từ bàn phím
         double congviet;

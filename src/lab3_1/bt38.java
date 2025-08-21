@@ -1,7 +1,7 @@
 // 38. Tinh,  vơi! 3 2 1 ! 3 3 2 1 ! 2 2 1 1 ) ( n n n S               
 package lab3_1;
 import java.util.Scanner;
-public class bt38 {
+public class Bt38 {
     public static void main(String[] args) {
         // Nhập vào số nguyên n từ bàn phím
                         int n;
@@ -40,7 +40,7 @@ System.out.println("S = " + sum);
 /*
  * package lab3_1;
 import java.util.Scanner;
-public class bt38_1 {
+public class Bt38_1 {
     public static void main(String[] args) {
         // Nhập vào số nguyên n từ bàn phím
         int n;

@@ -5,7 +5,7 @@
 // (Với p là nửa chu vi của tam giác)
 package lab4;
 import java.util.Scanner;
-public class bt51 {
+public class Bt51 {
     public static void main(String[] args) {
         // Nhập vào 3 cạnh a, b, c từ bàn phím
         double a = nhap("Nhap canh a: ");

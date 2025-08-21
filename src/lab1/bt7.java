@@ -3,7 +3,7 @@
  */
 package lab1;
 import java.util.Scanner;
-public class bt7 {
+public class Bt7 {
     public static void main(String[] args) {
         //tạo biến gio, phut, giay kiểu int để nhập giá trị từ bàn phím
 int gio, phut, giay;

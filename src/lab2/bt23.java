@@ -4,7 +4,7 @@ phương hay không? (số chính phương làsố khi lấy căn băc̣ 2 
     */
 package lab2;
     import java.util.Scanner;
-public class bt23 {
+public class Bt23 {
     public static void main(String[] args) {
         //tạo biến n nhập từ bàn phím
 int n;

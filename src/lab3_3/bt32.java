@@ -1,7 +1,7 @@
 // 32. Tính S(n) = 1! + 2! + 3! + ... + n!, với n >= 0
 package lab3_3;
 import java.util.Scanner;
-public class bt32 {
+public class Bt32 {
 public static void main(String[] args) {
     // Nhập số nguyên dương n từ bàn phím
     int n = nhap("Nhap n >0");

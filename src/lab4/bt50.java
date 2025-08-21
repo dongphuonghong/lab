@@ -1,7 +1,7 @@
 // 50. Viêt chương trinh tinh tiên lương ngay cho công nhân, cho biêt trươc giơ vao ca, giơ ra ca cua môi ngươi.Biết răng:- Tiên tra cho môi giơ trươc 12 giơ la 6000đ va sau 12 giơ la 7500đ.- Giơ vao ca sơm nhât  la 6 giơ sang va giơ ra ca trê nhât la 18 giơ (Gia sư giơ nhâp vao nguyên).
 package lab4;
 import java.util.Scanner;
-public class bt50 {
+public class Bt50 {
 public static void main(String[] args) {
     //gọi hàm nhập giờ vào ca và giờ ra ca
     //nếu nhập giờ vào ca không hợp lệ sẽ yêu cầu nhập lại

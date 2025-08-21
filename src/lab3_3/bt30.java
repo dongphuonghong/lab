@@ -1,7 +1,7 @@
 // 30. Tính S(n) = (1 + 3 + 5 + ... + (2n+1)) × (1 + 2 + 3 + ... + n), với n >= 0
 package lab3_3;
 import java.util.Scanner;
-public class bt30 {
+public class Bt30 {
 public static void main(String[] args) {
     // Nhập số nguyên dương n từ bàn phím
 int n= nhap("nhap n >0");        

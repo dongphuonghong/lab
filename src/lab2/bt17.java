@@ -1,7 +1,7 @@
 //17Giai va biên luân phương trinh:0 2 4    c bx ax
 package lab2;
 import java.util.Scanner;
-public class bt17 {
+public class Bt17 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
         //tạo biến a, b, c, delta, x1, x2 nhập từ bàn phím
@@ -37,7 +37,7 @@ sc.close();
 //cách 2
 /*
  * import java.util.Scanner;
-public class bt17edit {
+public class Bt17edit {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
         //tạo   bien a, b, c, delta, x1, x2 nhap gia tri tu ban phim

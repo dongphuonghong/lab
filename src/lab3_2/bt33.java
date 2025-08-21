@@ -1,7 +1,7 @@
 // 33. Tính S = 1² + 2² + 3² + ... + n² (Tổng bình phương các số tự nhiên)
 package lab3_2;
 import java.util.Scanner;
-public class bt33 {
+public class Bt33 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
         int n;
@@ -21,4 +21,4 @@ public class bt33 {
         // In kết quả tổng S(n)
         System.out.println("Tổng S = " + sum);
     } // end main
-} // end class bt33
+} // end class Bt33

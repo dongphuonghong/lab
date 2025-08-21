@@ -1,7 +1,7 @@
 // 61. Viết chương trình nhập số nguyên dương n gồm k chữ số, kiểm tra xem các chữ số của n có toàn lẻ hay toàn chẵn không.
 package lab5;
 import java.util.Scanner;
-public class bt61 {
+public class Bt61 {
 public static void main(String[] args) {
     // Nhập số nguyên dương từ bàn phím
     int n = nhap("Nhap n > 0: ");    

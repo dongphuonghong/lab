@@ -1,7 +1,7 @@
 // 46. Nhâp sô nguyên dương n (n>0). Liêt kê n sô chinh phương đâu tiên.
 package lab4;
 import java.util.Scanner;
-public class bt46 {
+public class Bt46 {
     public static void main(String[] args) {
 //gọi hàm Nhập số nguyên dương n từ bàn phím
         int n = nhap("Nhap n >0");

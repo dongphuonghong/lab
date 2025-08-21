@@ -2,7 +2,7 @@
 // Tổng xen kẽ các số từ 1 đến n với dấu + và -
 package lab3_1;
 import java.util.Scanner;
-public class bt31 {
+public class Bt31 {
     public static void main(String[] args) {
         // Nhập số nguyên dương n từ bàn phím
         int n;

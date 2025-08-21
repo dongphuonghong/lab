@@ -3,7 +3,7 @@
  */
 package lab1;
 import java.util.Scanner;
-public class bt5 {
+public class Bt5 {
     public static void main(String[] args) {
         //tạo biến n kiểu int để nhập giá trị từ bàn phím
         int n;

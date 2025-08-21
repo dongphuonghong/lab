@@ -1,7 +1,7 @@
 // 40. Tính P(x,n) = x¹ + x² + x³ + ... + xⁿ (Tổng lũy thừa của x)
 package lab3_2;
 import java.util.Scanner;
-public class bt40 {
+public class Bt40 {
     public static void main(String[] args) {
         // Nhập n và x từ bàn phím
         int n;
@@ -27,4 +27,4 @@ public class bt40 {
 // In kết quả tổng P(x, n)        
         System.out.println("Tổng P(x, n) = " + sum);
     } // end main
-} // end class bt40
+} // end class Bt40

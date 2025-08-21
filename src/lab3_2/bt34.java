@@ -1,7 +1,7 @@
 // 34. Tính S = 1 + 1/2 + 1/3 + ... + 1/n (Tổng nghịch đảo các số tự nhiên)
 package lab3_2;
 import java.util.Scanner;
-public class bt34 {
+public class Bt34 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
         int n;
@@ -23,4 +23,4 @@ public class bt34 {
         // In kết quả tổng S(n)
         System.out.println("S = " + sum);
     } // end main
-} // end class bt34
+} // end class Bt34

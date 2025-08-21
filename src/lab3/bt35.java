@@ -1,7 +1,7 @@
 // 35. Tinh,  vơin n n S       3 2 3 2 1 ) (0  n
 package lab3;
 import java.util.Scanner;
-public class bt35 {
+public class Bt35 {
 public static void main(String[] args) {
     int n;
     // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím

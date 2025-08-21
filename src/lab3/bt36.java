@@ -1,7 +1,7 @@
 // 36. Tinh,  vơi1 4 3 3 2 2 1 ) (       n n n S 
 package lab3;
 import java.util.Scanner;
-public class bt36 {
+public class Bt36 {
     public static void main(String[] args) {
         int n;
         // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím
@@ -25,7 +25,7 @@ System.out.println("Tong S = " + sum);
 /* 
  * package lab3;
 import java.util.Scanner;
-public class bt36_1 {
+public class Bt36_1 {
     public static void main(String[] args) {
                 int n;
         // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím

@@ -1,7 +1,7 @@
 // 27. Một số hoàn thiện là một số có tổng các ước số của nó (không kể nó) bằng chính nó. Hãy nhập vào số nguyên dương n và kiểm tra xem n có phải là số hoàn thiện không. 
 package lab3_1;
 import java.util.Scanner;
-public class bt27 {
+public class Bt27 {
     public static void main(String[] args) {
         int n, sum = 0;
         // Nhập số nguyên dương từ bàn phím

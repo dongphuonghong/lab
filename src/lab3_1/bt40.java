@@ -1,7 +1,7 @@
 // 40. Tính P(x,n) = x¹ + x² + x³ + ... + xⁿ
 package lab3_1;
 import java.util.Scanner;
-public class bt40 {
+public class Bt40 {
     public static void main(String[] args) {
         // Khai báo biến n và x từ bàn phím
         int n;

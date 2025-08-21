@@ -1,7 +1,7 @@
 // 29. Tính P(n) = 1 × 3 × 5 × ... × (2n+1), với n >= 0 
 package lab3_3;
 import java.util.Scanner;
-public class bt29 {
+public class Bt29 {
 public static void main(String[] args) {
     // Nhập số nguyên dương n từ bàn phím
     int n = nhap("nhap n >0");

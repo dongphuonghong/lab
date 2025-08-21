@@ -1,7 +1,7 @@
 // 24. Viết chương trình nhập số nguyên dương n. Kiểm tra n có phải là số nguyên tố hay không.
 package lab3_3;
 import java.util.Scanner;
-public class bt24 {
+public class Bt24 {
 public static void main(String[] args) {
 //khai báo biến n kiểu int
 //sử dụng hàm nhập để lấy giá trị n từ người dùng

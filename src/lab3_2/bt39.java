@@ -1,7 +1,7 @@
 // 39. Tính S = 1/1 + 1/(1+2) + 1/(1+2+3) + ... + 1/(1+2+...+n)
 package lab3_2;
 import java.util.Scanner;
-public class bt39 {
+public class Bt39 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
         int n;
@@ -27,4 +27,4 @@ public class bt39 {
 // In kết quả tổng S(n) với 4 chữ số thập phân        
         System.out.printf("Tổng S = %.4f", sum);
     } // end main
-} // end class bt39
+} // end class Bt39

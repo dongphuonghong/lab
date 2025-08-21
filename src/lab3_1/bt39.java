@@ -2,7 +2,7 @@
 // Tổng các phân số có mẫu số là tổng các số tự nhiên liên tiếp
 package lab3_1;
 import java.util.Scanner;
-public class bt39 {
+public class Bt39 {
     public static void main(String[] args) {
         // Nhập vào số nguyên n từ bàn phím
         int n;

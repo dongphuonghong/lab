@@ -2,7 +2,7 @@
 // Chương trình tính diện tích và chu vi của hình tam giác, hình vuông và hình chữ nhật
 package lab1;
 import java.util.Scanner;
-public class bt11 {
+public class Bt11 {
     public static void main(String[] args) {        
         try (Scanner sc = new Scanner(System.in)) {
         // Nhập thông tin cho hình tam giác

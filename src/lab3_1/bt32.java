@@ -2,7 +2,7 @@
 // Tổng giai thừa từ 1! đến n!
 package lab3_1;
 import java.util.Scanner;
-public class bt32 {
+public class Bt32 {
     public static void main(String[] args) {
         // Nhập số nguyên dương n từ bàn phím
         int n;

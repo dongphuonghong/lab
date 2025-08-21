@@ -1,7 +1,7 @@
 // 3. Hướng dẫn sao chép tập tin
 // Chương trình hiển thị các bước thực hiện để sao chép một tập tin
 package lab1;
-public class bt3 {
+public class Bt3 {
 public static void main(String[] args) {
     // Hiển thị từng bước hướng dẫn sao chép tập tin
     System.out.println("/=>B1. Vao thu muc \"C:\\TUYENTAP\thotinh.txt\"/");

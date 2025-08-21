@@ -1,7 +1,7 @@
 // 39.  Tinh,  vơin n S               3 2 1 1 3 2 1 1 2 1 1 1 ) (
 package lab3;
 import java.util.Scanner;
-public class bt39 {
+public class Bt39 {
 public static void main(String[] args) {
             int n;
                     // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím

@@ -1,7 +1,7 @@
 //16Giai va biên luân phương trinh:0 2    c bx ax
 package lab2;
 import java.util.Scanner;
-public class bt16 {
+public class Bt16 {
     public static void main(String[] args) {//
         //tạo biến a, b, c nhập từ bàn phím
         double a, b, c;
@@ -36,7 +36,7 @@ if (delta < 0) {
 //cách 2
 /**
  * import java.util.Scanner;
-public class bt16edit {
+public class Bt16edit {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
         //tạo biến a,b,c,x1,x2,delta và nhập giá trị từ bàn phím

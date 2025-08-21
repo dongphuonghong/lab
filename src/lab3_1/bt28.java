@@ -3,7 +3,7 @@
 // Giai thừa của n là tích của tất cả các số nguyên dương từ 1 đến n
 package lab3_1;
 import java.util.Scanner; 
-public class bt28 {
+public class Bt28 {
     public static void main(String[] args) {
         // Khai báo biến n và nhập giá trị từ bàn phím
         int n;
