@@ -1,4 +1,6 @@
-// 32. Tính S(n) = 1! + 2! + 3! + ... + n!, với n >= 0
+/**
+ * Bài 32: Tính S(n) = 1! + 2! + ... + n!.
+ */
 package lab3_3;
 
 import java.util.Scanner;
@@ -12,9 +14,9 @@ public class Bt32 {
         // In kết quả
         System.out.println("Tong S = " + sum);
     }// end main
-    // Hàm nhập số nguyên dương từ bàn phím
-    // Nếu nhập n < 0 sẽ yêu cầu nhập lại
-    // Trả về giá trị n hợp lệ
+     // Hàm nhập số nguyên dương từ bàn phím
+     // Nếu nhập n < 0 sẽ yêu cầu nhập lại
+     // Trả về giá trị n hợp lệ
 
     /**
      * Nhập số nguyên dương n (>=0).

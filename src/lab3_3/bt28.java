@@ -1,4 +1,6 @@
-// 28. Tính n! (giai thừa), với n >= 0/ 28. Tính n! (giai thừa), với n >= 0/ 28. Tinh n!,  vơi0  n
+/**
+ * Bài 28: Tính giai thừa n! cho n >= 0.
+ */
 package lab3_3;
 
 import java.util.Scanner;

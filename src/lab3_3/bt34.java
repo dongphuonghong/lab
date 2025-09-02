@@ -1,4 +1,6 @@
-// 34. Tính S(n) = 1/1 + 1/2 + 1/3 + ... + 1/n, với n >= 1
+/**
+ * Bài 34: Tính S(n) = 1 + 1/2 + 1/3 + ... + 1/n.
+ */
 package lab3_3;
 
 import java.util.Scanner;

@@ -1,4 +1,6 @@
-// 31. Tính S(n) = 1 - 2 + 3 - 4 + ... + (-1)^(n+1) × n, với n >= 0
+/**
+ * Bài 31: Tính S(n) = 1 - 2 + 3 - 4 + ... ± n (dãy xen kẽ dấu) với n >= 0.
+ */
 package lab3_3;
 
 import java.util.Scanner;
@@ -12,9 +14,9 @@ public class Bt31 {
         // In kết quả
         System.out.println("Tong S = " + sum);
     }// end main
-    // Hàm nhập số nguyên dương từ bàn phím
-    // Nếu nhập n < 0 sẽ yêu cầu nhập lại
-    // Trả về giá trị n hợp lệ
+     // Hàm nhập số nguyên dương từ bàn phím
+     // Nếu nhập n < 0 sẽ yêu cầu nhập lại
+     // Trả về giá trị n hợp lệ
 
     /**
      * Nhập số nguyên dương n (>=0).

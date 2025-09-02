@@ -1,4 +1,6 @@
-// 33. Tính S(n) = 1² + 2² + 3² + ... + n², với n >= 1
+/**
+ * Bài 33: Tính S(n) = 1^2 + 2^2 + ... + n^2.
+ */
 package lab3_3;
 
 import java.util.Scanner;

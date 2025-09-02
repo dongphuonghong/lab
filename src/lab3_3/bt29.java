@@ -1,4 +1,6 @@
-// 29. Tính P(n) = 1 × 3 × 5 × ... × (2n+1), với n >= 0 
+/**
+ * Bài 29: Tính P(n) = 1×3×5×...×(2n+1) cho n >= 0.
+ */
 package lab3_3;
 
 import java.util.Scanner;
@@ -12,9 +14,9 @@ public class Bt29 {
         // In kết quả
         System.out.println("t = " + t);
     }// end main
-    // Hàm nhập số nguyên dương từ bàn phím
-    // Nếu nhập n < 0 sẽ yêu cầu nhập lại
-    // Trả về giá trị n hợp lệ
+     // Hàm nhập số nguyên dương từ bàn phím
+     // Nếu nhập n < 0 sẽ yêu cầu nhập lại
+     // Trả về giá trị n hợp lệ
 
     /**
      * Nhập số nguyên dương n (>=0).

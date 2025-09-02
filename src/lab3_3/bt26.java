@@ -1,4 +1,6 @@
-// 26. Viết chương trình đếm số ước số của số nguyên dương N. Ví dụ: N=12, số ước số của 12 là 6
+/**
+ * Bài 26: Đếm số lượng ước số của N (ví dụ N=12 có 6 ước: 1,2,3,4,6,12).
+ */
 package lab3_3;
 
 import java.util.Scanner;
@@ -12,9 +14,9 @@ public class Bt26 {
         // In kết quả
         System.out.println("Tong cac uoc so cua " + n + " la: " + d);
     }// end main
-    // Hàm nhập số nguyên dương từ bàn phím
-    // Nếu nhập n <= 0 sẽ yêu cầu nhập lại
-    // Trả về giá trị n hợp lệ
+     // Hàm nhập số nguyên dương từ bàn phím
+     // Nếu nhập n <= 0 sẽ yêu cầu nhập lại
+     // Trả về giá trị n hợp lệ
 
     /**
      * Nhập số nguyên dương n từ bàn phím (n >= 0).

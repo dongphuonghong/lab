@@ -1,4 +1,6 @@
-// 24. Viết chương trình nhập số nguyên dương n. Kiểm tra n có phải là số nguyên tố hay không.
+/**
+ * Bài 24: Nhập số nguyên dương n và kiểm tra n có phải số nguyên tố.
+ */
 package lab3_3;
 
 import java.util.Scanner;
@@ -19,8 +21,8 @@ public class Bt24 {
         }
     }// end main
      // đây là hàm nhập số nguyên dương
-    // nếu nhập n nhỏ hơn 0 sẽ yêu cầu nhập lại
-    // nếu nhập đúng sẽ trả về giá trị n
+     // nếu nhập n nhỏ hơn 0 sẽ yêu cầu nhập lại
+     // nếu nhập đúng sẽ trả về giá trị n
 
     /**
      * Nhập số nguyên dương n từ bàn phím (yêu cầu n >= 0).
