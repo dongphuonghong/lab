@@ -10,9 +10,9 @@ public class Bt64 {
         // Sắp xếp và in các chữ số theo thứ tự tăng dần
         sapXepChuSo(n);
     }// end main
-    // Hàm nhập số nguyên dương từ bàn phím
-    // Kiểm tra điều kiện n >= 0
-    // Trả về số nguyên hợp lệ
+     // Hàm nhập số nguyên dương từ bàn phím
+     // Kiểm tra điều kiện n >= 0
+     // Trả về số nguyên hợp lệ
 
     public static int nhap(String chuoi) {
         int n;

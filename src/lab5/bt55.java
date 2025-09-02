@@ -3,6 +3,10 @@ package lab5;
 
 import java.util.Scanner;
 
+/**
+ * Bài 55: Nhập hai số nguyên a, b và hoán vị (minh họa cơ chế truyền tham số
+ * theo giá trị trong Java).
+ */
 public class Bt55 {
     public static void main(String[] args) {
         // Nhập hai số nguyên a và b từ bàn phím
@@ -20,6 +24,12 @@ public class Bt55 {
 
     static Scanner sc = new Scanner(System.in);
 
+    /**
+     * Nhập một số nguyên từ bàn phím.
+     * 
+     * @param chuoi thông báo nhắc nhập
+     * @return số nguyên người dùng nhập
+     */
     public static int nhap(String chuoi) {
         System.out.print(chuoi);
         return sc.nextInt();
@@ -30,6 +40,12 @@ public class Bt55 {
     // nên việc hoán vị chỉ có hiệu lực trong phạm vi hàm này
     // Để hoán vị thực sự, cần sử dụng mảng hoặc đối tượng
     // Tham số: a, b - hai số nguyên cần hoán vị
+    /**
+     * Hoán vị hai số nguyên (chỉ hiệu lực bên trong hàm do pass-by-value).
+     * 
+     * @param a số thứ nhất (bản sao)
+     * @param b số thứ hai (bản sao)
+     */
     public static void hoanVi(int a, int b) {
         int temp = a;
         a = b;

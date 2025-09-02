@@ -15,9 +15,9 @@ public class Bt56 {
             System.out.println(n + " khong phai la so doi xung");
         }
     }// end main
-    // Hàm nhập số nguyên dương gồm 5 chữ số
-    // Kiểm tra điều kiện: 10000 <= n <= 99999
-    // Trả về số nguyên hợp lệ
+     // Hàm nhập số nguyên dương gồm 5 chữ số
+     // Kiểm tra điều kiện: 10000 <= n <= 99999
+     // Trả về số nguyên hợp lệ
 
     public static int nhap(String chuoi) {
         int n;
