@@ -1,9 +1,5 @@
-// 68. Viết chương trình phát sinh ngẫu nhiên mảng một chiều các số nguyên âm.
-/*
- * Bt68.java
- * Sinh mảng số nguyên âm ngẫu nhiên.
- * Mô tả: Yêu cầu nhập n (>0), chương trình điền mảng với các số âm ngẫu nhiên
- * (ví dụ: -rand.nextInt(99)-1) rồi in ra.
+/**
+ * Bài 68 (lab6_1): Phát sinh mảng số nguyên âm ngẫu nhiên trong [-99,-1].
  */
 package lab6_1;
 

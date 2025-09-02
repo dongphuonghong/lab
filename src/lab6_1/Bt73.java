@@ -1,8 +1,5 @@
-// 73. Viết chương trình nhập vào mảng một chiều các số nguyên và in các số nguyên tố.
-/*
- * Bt73.java
- * Nhập mảng và in ra các số nguyên tố trong mảng.
- * Mô tả: Yêu cầu nhập n (>0), nhập từng phần tử (có prompt), sau đó in các số nguyên tố.
+/**
+ * Bài 73 (lab6_1): Nhập mảng và in các số nguyên tố.
  */
 package lab6_1;
 

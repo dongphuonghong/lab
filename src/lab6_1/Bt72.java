@@ -1,8 +1,5 @@
-// 72. Viết chương trình nhập vào mảng một chiều các số nguyên và in các phần tử chẵn nhỏ hơn 20.
-/*
- * Bt72.java
- * Nhập mảng và in các phần tử chẵn nhỏ hơn 20.
- * Mô tả: Yêu cầu nhập n (>0), nhập từng phần tử (có prompt), sau đó in các phần tử chẵn < 20.
+/**
+ * Bài 72 (lab6_1): Nhập mảng và in các phần tử chẵn nhỏ hơn 20.
  */
 package lab6_1;
 

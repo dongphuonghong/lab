@@ -1,9 +1,5 @@
-// 66. Viết chương trình nhập vào và xuất ra mảng một chiều các số nguyên.
-/*
- * Bt66.java
- * Nhập mảng một chiều số nguyên và in ra mảng.
- * Mô tả: Yêu cầu nhập n (>0), chương trình đọc n số nguyên từ bàn phím
- * và in mảng vừa nhập ra màn hình.
+/**
+ * Bài 66 (lab6_1): Nhập mảng một chiều số nguyên và in ra (Arrays.toString).
  */
 
 package lab6_1;
