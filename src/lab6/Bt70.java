@@ -1,8 +1,5 @@
-// 70. Viết chương trình nhập vào mảng một chiều các số nguyên và in các phần tử âm.
-/*
- * Bt70.java
- * Nhập mảng và in các phần tử âm trong mảng.
- * Mô tả: Yêu cầu nhập n (>0), đọc n số nguyên, sau đó in các phần tử < 0 (nếu có).
+/**
+ * Bài 70: Nhập mảng số nguyên và in các phần tử âm.
  */
 package lab6;
 

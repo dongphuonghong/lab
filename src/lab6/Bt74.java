@@ -1,9 +1,5 @@
-// 74. Viết chương trình nhập vào mảng một chiều các số nguyên và xuất ra các phần tử là số chính phương nằm tại những vị trí lẻ trong mảng.
-/*
- * Bt74.java
- * Nhập mảng và in các số chính phương ở vị trí lẻ trong mảng.
- * Mô tả: Nhập n (>0), nhập từng phần tử (có prompt), in các phần tử là số chính phương
- * xuất hiện ở chỉ số lẻ (i % 2 != 0).
+/**
+ * Bài 74: Nhập mảng số nguyên và in các số chính phương ở vị trí lẻ (index lẻ).
  */
 package lab6;
 

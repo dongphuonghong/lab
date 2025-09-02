@@ -1,7 +1,5 @@
-// 73. Viết chương trình nhập vào mảng một chiều các số nguyên và xuất ra màn hình các phần tử là số nguyên tố.
-/*
- * Bt73.java
- * Nhập mảng và in ra các số nguyên tố trong mảng.
+/**
+ * Bài 73: Nhập mảng số nguyên và in các phần tử là số nguyên tố.
  */
 package lab6;
 

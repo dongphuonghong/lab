@@ -1,8 +1,5 @@
-// 71. Viết chương trình nhập vào mảng một chiều các số nguyên và in các phần tử lẻ.
-/*
- * Bt71.java
- * Nhập mảng và in các số lẻ có trong mảng.
- * Mô tả: Yêu cầu nhập n (>0), đọc n số nguyên, sau đó in các phần tử lẻ.
+/**
+ * Bài 71: Nhập mảng số nguyên và in các phần tử lẻ.
  */
 package lab6;
 

@@ -1,10 +1,5 @@
-// 69. Viết chương trình phát sinh ngẫu nhiên mảng một chiều số nguyên có thứ tự tăng dần.
-/*
- * Bt69.java
- * Sinh mảng số nguyên tăng dần một cách ngẫu nhiên.
- * Mô tả: Yêu cầu nhập n (>0), chương trình sinh giá trị bắt đầu ngẫu nhiên
- * và tạo dãy tăng dần bằng cách cộng các bước dương ngẫu nhiên.
-   *  - Phần tử đầu tiên được chọn ngẫu nhiên trong khoảng [-50, 49].
+/**
+ * Bài 69: Phát sinh mảng số nguyên tăng dần ngẫu nhiên (phần tử đầu trong [-50,49]).
  */
 package lab6;
 

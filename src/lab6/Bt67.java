@@ -1,10 +1,5 @@
-// 67. Viết chương trình khởi tạo mảng một chiều các số nguyên với giá trị mặc định 0.
-/*
- * Bt67.java
- * Khởi tạo mảng một chiều số nguyên có n phần tử và in mảng.
- * Mô tả: Yêu cầu nhập n (>0), chương trình tạo mảng mới (giá trị mặc định 0)
-   * Trong Java, mảng số nguyên khi khởi tạo sẽ được gán giá trị mặc định 0.
- * và in mảng ra màn hình.
+/**
+ * Bài 67: Khởi tạo mảng một chiều số nguyên n phần tử (mặc định 0) và in ra.
  */
 package lab6;
 
