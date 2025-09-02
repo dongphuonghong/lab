@@ -1,4 +1,4 @@
-// 48. Nhâp sô nguyên dương n (0 <= n< 1000) va in ra cach đoc cua n.
+// 48. Nhập số nguyên dương n (0 <= n < 1000) và in ra cách đọc của n.
 package lab4;
 
 import java.util.Scanner;
@@ -33,6 +33,12 @@ public class Bt48 {
     // Hàm chuyển đổi số nguyên thành chữ số
     // Nhận vào một số nguyên từ 0 đến 9
     // Trả về chuỗi tương ứng với chữ số đó
+    /**
+     * Đọc một chữ số (0..9) thành chuỗi tiếng Việt.
+     * 
+     * @param so chữ số cần đọc (0-9)
+     * @return chuỗi thể hiện cách đọc; rỗng nếu ngoài phạm vi
+     */
     public static String docChuSo(int so) {
         return switch (so) {
             case 0 -> "không";
@@ -49,6 +55,11 @@ public class Bt48 {
         };
     }
 
+    /**
+     * In ra cách đọc tiếng Việt của số nguyên n (0 <= n < 1000).
+     * 
+     * @param n số cần đọc
+     */
     public static void docSo(int n) {
         if (n == 0) {
             System.out.println("không");

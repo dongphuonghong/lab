@@ -14,9 +14,9 @@ public class Bt55 {
         // Gọi hàm hoán vị
         hoanVi(a, b);
     }// end main
-    // Hàm nhập số nguyên từ bàn phím
-    // Tham số: chuoi - thông báo hiển thị cho người dùng
-    // Trả về: giá trị số nguyên được nhập từ bàn phím
+     // Hàm nhập số nguyên từ bàn phím
+     // Tham số: chuoi - thông báo hiển thị cho người dùng
+     // Trả về: giá trị số nguyên được nhập từ bàn phím
 
     static Scanner sc = new Scanner(System.in);
 

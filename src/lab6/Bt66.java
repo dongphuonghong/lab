@@ -55,6 +55,7 @@ public class Bt66 {
 
     public static void nhapMang(int[] a) {
         for (int i = 0; i < a.length; i++) {
+            System.out.print("Nhap phan tu a[" + i + "]: ");
             a[i] = sc.nextInt();
         }
     }

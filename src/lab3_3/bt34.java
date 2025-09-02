@@ -16,6 +16,12 @@ public class Bt34 {
      // Nếu nhập n <= 0 sẽ yêu cầu nhập lại
      // Trả về giá trị n hợp lệ
 
+    /**
+     * Nhập số nguyên dương n (>=0).
+     * 
+     * @param chuoi thông báo nhắc nhập
+     * @return n hợp lệ
+     */
     public static int nhap(String chuoi) {
         int n;
         do {
@@ -34,6 +40,12 @@ public class Bt34 {
     // Sử dụng vòng lặp để tính tổng từ 1/1 đến 1/n
     // Ép kiểu double để có kết quả chính xác
     // Trả về tổng S(n)
+    /**
+     * Tính S(n) = 1 + 1/2 + ... + 1/n.
+     * 
+     * @param n số nguyên dương
+     * @return tổng phân số
+     */
     public static double tinhTongPhanSo(int n) {
         double sum = 0;
         for (int i = 1; i <= n; i++) {

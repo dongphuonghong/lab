@@ -57,6 +57,7 @@ public class Bt69 {
         Random rand = new Random();
         a[0] = rand.nextInt(100) - 50; // giá trị khởi tạo có thể âm hoặc dương
         for (int i = 1; i < a.length; i++) {
+            System.out.print("Nhap a[" + i + "]: ");
             a[i] = a[i - 1] + rand.nextInt(99) + 1; // đảm bảo phần tử sau lớn hơn phần tử trước
         }
     }

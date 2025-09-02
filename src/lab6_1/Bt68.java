@@ -48,6 +48,7 @@ public class Bt68 {
     public static void nhapMang(int[] a) {
         Random rand = new Random();
         for (int i = 0; i < a.length; i++) {
+            System.out.print("Nhap phan tu a[" + i + "]: ");
             a[i] = -rand.nextInt(99) - 1;
         }
     }

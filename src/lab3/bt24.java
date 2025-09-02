@@ -1,4 +1,4 @@
-// 24. Viết chương trình nhâp̣ số nguyên dương n. Kiểm tra n có phải là số nguyên tố hay không.
+// 24. Viết chương trình nhập số nguyên dương n. Kiểm tra n có phải là số nguyên tố hay không.
 // Số nguyên tố là số lớn hơn 1, chỉ chia hết cho 1 và chính nó.
 package lab3;
 

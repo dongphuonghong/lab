@@ -20,6 +20,12 @@ public class Bt71 {
 
     }// end main
 
+    /**
+     * Nhập số nguyên dương n (>0) từ bàn phím.
+     * 
+     * @param chuoi thông báo hướng dẫn
+     * @return n > 0
+     */
     public static int nhap(String chuoi) {
         int n;
         do {
@@ -32,6 +38,11 @@ public class Bt71 {
         } while (true);
     }
 
+    /**
+     * Nhập từng phần tử của mảng.
+     * 
+     * @param a mảng cần nhập
+     */
     public static void nhapMang(int[] a) {
         for (int i = 0; i < a.length; i++) {
             System.out.print("Nhap a[" + i + "]: ");
@@ -39,6 +50,11 @@ public class Bt71 {
         }
     }
 
+    /**
+     * In các phần tử lẻ trong mảng hoặc thông báo nếu không có.
+     * 
+     * @param a mảng số nguyên cần duyệt
+     */
     public static void xuatMang(int[] a) {
         boolean flag = false;
         for (int value : a) {
@@ -57,6 +73,12 @@ public class Bt71 {
         System.out.println();
     }
 
+    /**
+     * Kiểm tra số có phải là số lẻ.
+     * 
+     * @param x số cần kiểm tra
+     * @return true nếu x là số lẻ
+     */
     public static boolean laSoLe(int x) {
         return x % 2 != 0;
     }

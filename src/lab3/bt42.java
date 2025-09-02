@@ -1,4 +1,4 @@
-// 42. In ra day sô Fibonaci
+// 42. In ra dãy số Fibonacci.
 package lab3;
 
 import java.util.Scanner;

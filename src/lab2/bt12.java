@@ -1,4 +1,4 @@
-//12. Nhâp vao hai sô nguyên a, b. In ra man hinh gia tri lơn nhât.
+// 12. Nhập vào hai số nguyên a, b. In ra màn hình giá trị lớn nhất.
 package lab2;
 
 import java.util.Scanner;

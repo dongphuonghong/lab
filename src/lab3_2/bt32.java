@@ -1,6 +1,8 @@
-// 32. Tính S = 1! + 2! + 3! + ... + n! (Tổng các giai thừa)
+// 32. Tính S = 1! + 2! + 3! + ... + n! (tổng các giai thừa).
 package lab3_2;
+
 import java.util.Scanner;
+
 public class Bt32 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
@@ -15,13 +17,13 @@ public class Bt32 {
         int i = 1;
         do {
             // Tính i!
-            giaithua *= i; 
+            giaithua *= i;
             // Cộng vào tổng
-            sum += giaithua; 
+            sum += giaithua;
             // Tăng i lên 1 để tiếp tục vòng lặp
             i++;
         } while (i <= n);
         // In ra kết quả tổng S(n)
         System.out.println("S = " + sum);
     } // end main
-} // end class 
+} // end class

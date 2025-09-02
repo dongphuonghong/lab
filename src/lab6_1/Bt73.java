@@ -20,6 +20,12 @@ public class Bt73 {
 
     }// end main
 
+    /**
+     * Nhập số nguyên dương n (>0) từ bàn phím.
+     * 
+     * @param chuoi thông báo hướng dẫn
+     * @return n > 0
+     */
     public static int nhap(String chuoi) {
         int n;
         do {
@@ -32,6 +38,11 @@ public class Bt73 {
         } while (true);
     }
 
+    /**
+     * Nhập từng phần tử của mảng.
+     * 
+     * @param a mảng cần nhập
+     */
     public static void nhapMang(int[] a) {
         for (int i = 0; i < a.length; i++) {
             System.out.print("Nhap phan tu a[" + i + "]: ");
@@ -39,6 +50,12 @@ public class Bt73 {
         }
     }
 
+    /**
+     * Kiểm tra một số có phải là số nguyên tố.
+     * 
+     * @param x số cần kiểm tra
+     * @return true nếu x là số nguyên tố; false nếu không
+     */
     public static boolean laSoNguyenTo(int x) {
         if (x < 2) {
             return false;
@@ -51,6 +68,11 @@ public class Bt73 {
         return true;
     }
 
+    /**
+     * In các số nguyên tố trong mảng hoặc thông báo nếu không có.
+     * 
+     * @param a mảng số nguyên cần duyệt
+     */
     public static void xuatMang(int[] a) {
         boolean flag = false;
         for (int value : a) {

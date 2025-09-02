@@ -1,6 +1,8 @@
-// 33. Tính S = 1² + 2² + 3² + ... + n² (Tổng bình phương các số tự nhiên)
+// 33. Tính S = 1² + 2² + 3² + ... + n² (tổng bình phương các số tự nhiên).
 package lab3_2;
+
 import java.util.Scanner;
+
 public class Bt33 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
@@ -15,7 +17,7 @@ public class Bt33 {
         int i = 1;
         do {
             // Cộng bình phương của i
-            sum += i * i; 
+            sum += i * i;
             i++;
         } while (i <= n);
         // In kết quả tổng S(n)

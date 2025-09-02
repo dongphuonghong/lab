@@ -1,6 +1,8 @@
-// 30. Tính S = (1 + 3 + 5 + ... + (2n+1)) × (1 + 2 + 3 + ... + n)
+// 30. Tính S = (1 + 3 + 5 + ... + (2n + 1)) × (1 + 2 + 3 + ... + n).
 package lab3_2;
+
 import java.util.Scanner;
+
 public class Bt30 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím

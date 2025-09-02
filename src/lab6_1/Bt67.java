@@ -19,6 +19,12 @@ public class Bt67 {
         sc.close();
     }// end main
 
+    /**
+     * Nhập vào số nguyên dương n (>0) để khởi tạo mảng.
+     * 
+     * @param chuoi thông báo hướng dẫn nhập
+     * @return giá trị n > 0
+     */
     public static int nhap(String chuoi) {
         int n;
         do {
@@ -31,6 +37,11 @@ public class Bt67 {
         } while (true);
     }
 
+    /**
+     * In tất cả phần tử của mảng (giá trị mặc định 0).
+     * 
+     * @param a mảng số nguyên cần in
+     */
     public static void xuatMang(int[] a) {
         for (int value : a) {
             System.out.print(value + " ");

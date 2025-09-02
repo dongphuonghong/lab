@@ -24,6 +24,13 @@ public class Bt66 {
 
     }// end main
 
+    /**
+     * Nhập vào một số nguyên dương n (>0) từ bàn phím.
+     * Lặp lại cho đến khi người dùng nhập hợp lệ.
+     * 
+     * @param chuoi thông báo hướng dẫn nhập
+     * @return giá trị n > 0
+     */
     public static int nhap(String chuoi) {
         int n;
         do {
@@ -36,12 +43,23 @@ public class Bt66 {
         } while (true);
     }
 
+    /**
+     * Nhập giá trị cho từng phần tử của mảng từ bàn phím.
+     * 
+     * @param a mảng số nguyên cần nhập dữ liệu
+     */
     public static void nhapMang(int[] a) {
         for (int i = 0; i < a.length; i++) {
+            System.out.print("Nhap phan tu a[" + i + "]: ");
             a[i] = sc.nextInt();
         }
     }
 
+    /**
+     * In các phần tử của mảng trên một dòng.
+     * 
+     * @param a mảng số nguyên cần in
+     */
     public static void xuatMang(int[] a) {
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");

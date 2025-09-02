@@ -1,6 +1,8 @@
-// 36. Tính S = 1² + 2³ + 3⁴ + ... + n^(n+1) (Tổng lũy thừa tăng dần)
+// 36. Tính S = 1^2 + 2^3 + 3^4 + ... + n^(n+1) (tổng lũy thừa tăng dần).
 package lab3_2;
+
 import java.util.Scanner;
+
 public class Bt36 {
     public static void main(String[] args) {
         // Nhập số nguyên n từ bàn phím
@@ -15,7 +17,7 @@ public class Bt36 {
         int sum = 0;
         int i = 1;
         do {
-             // Cộng i^(i+1)
+            // Cộng i^(i+1)
             sum += Math.pow(i, i + 1);
             // Tăng i lên 1 để tiếp tục vòng lặp
             i++;

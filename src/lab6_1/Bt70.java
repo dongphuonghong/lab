@@ -19,6 +19,12 @@ public class Bt70 {
         sc.close();
     }// end main
 
+    /**
+     * Nhập số nguyên dương n (>0) từ bàn phím.
+     * 
+     * @param chuoi thông báo hướng dẫn
+     * @return n > 0
+     */
     public static int nhap(String chuoi) {
         int n;
         do {
@@ -31,6 +37,11 @@ public class Bt70 {
         } while (true);
     }
 
+    /**
+     * Nhập từng phần tử của mảng từ bàn phím.
+     * 
+     * @param a mảng số nguyên cần nhập
+     */
     public static void nhapMang(int[] a) {
         for (int i = 0; i < a.length; i++) {
             System.out.print("Nhap a[" + i + "]: ");
@@ -38,6 +49,11 @@ public class Bt70 {
         }
     }
 
+    /**
+     * In các phần tử âm trong mảng (nếu có), nếu không có báo không tồn tại.
+     * 
+     * @param a mảng số nguyên cần kiểm tra
+     */
     public static void xuatMang(int[] a) {
         boolean flag = false;
         for (int value : a) {
@@ -55,6 +71,12 @@ public class Bt70 {
         System.out.println();
     }
 
+    /**
+     * Kiểm tra giá trị có âm không.
+     * 
+     * @param x số cần kiểm tra
+     * @return true nếu x < 0
+     */
     public static boolean kiemTraAm(int x) {
         return x < 0;
     }

@@ -1,4 +1,4 @@
-//13. Cho ba sô a, b, c đoc vao tư ban phim. Hay tim gia tri lơn nhât cua ba sô trên va in ra kêt qua.
+// 13. Cho ba số a, b, c đọc vào từ bàn phím. Hãy tìm giá trị lớn nhất của ba số trên và in ra kết quả.
 package lab2;
 
 import java.util.Scanner;

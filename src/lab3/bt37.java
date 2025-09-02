@@ -1,27 +1,29 @@
-// 37. Tính tổng nghịch đảo các giai thừa S(n) = 1/1! + 1/2! + 1/3! + ... + 1/n!      
+// 37. Tính S(n) = 1/1! + 1/2! + 1/3! + ... + 1/n!.
 package lab3;
+
 import java.util.Scanner;
+
 public class Bt37 {
     public static void main(String[] args) {
         int n;
         // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím
-try (Scanner sc = new Scanner(System.in)) {
-    // Nhập giá trị n từ bàn phím
+        try (Scanner sc = new Scanner(System.in)) {
+            // Nhập giá trị n từ bàn phím
             System.out.print("Nhap n: ");
             n = sc.nextInt();
         }
-                // Khởi tạo biến giai thừa ban đầu là 1
-        int giaithua=1;
-                // Khởi tạo biến sum để lưu tổng các giai thừa
-                double sum=1;
-                // Dùng vòng lặp for để tính từng giai thừa từ 1 đến n và cộng dồn vào sum
-        for (int i=1; i<=n; i++) {
+        // Khởi tạo biến giai thừa ban đầu là 1
+        int giaithua = 1;
+        // Khởi tạo biến sum để lưu tổng các giai thừa
+        double sum = 1;
+        // Dùng vòng lặp for để tính từng giai thừa từ 1 đến n và cộng dồn vào sum
+        for (int i = 1; i <= n; i++) {
             // Cập nhật giai thừa tại bước i
-            giaithua*=i;
+            giaithua *= i;
             // Cộng giai thừa hiện tại vào tổng
-            sum +=(double)1/giaithua; 
+            sum += (double) 1 / giaithua;
         }
-                // In kết quả tổng S(n) ra màn hình
-System.out.println("S = " + sum);
-    }//end main
-}//end class
+        // In kết quả tổng S(n) ra màn hình
+        System.out.println("S = " + sum);
+    }// end main
+}// end class
