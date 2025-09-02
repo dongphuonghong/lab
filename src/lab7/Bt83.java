@@ -1,4 +1,6 @@
-// 83. Viết hàm tìm vị trí phần tử dương bé nhất trong mảng.
+/**
+ * Bài 83: Tìm vị trí phần tử dương nhỏ nhất trong mảng (không có trả về -1).
+ */
 package lab7;
 
 public class Bt83 {

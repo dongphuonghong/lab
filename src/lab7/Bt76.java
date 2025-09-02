@@ -1,4 +1,6 @@
-// 76. Viết hàm tìm vị trí của phần tử nhỏ nhất trong mảng các số nguyên.
+/**
+ * Bài 76: Tìm vị trí phần tử nhỏ nhất trong mảng (nếu nhiều lấy đầu tiên).
+ */
 package lab7;
 
 public class Bt76 {

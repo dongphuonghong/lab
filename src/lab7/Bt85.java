@@ -1,4 +1,6 @@
-// 85. Viết hàm tìm số chẵn cuối cùng có trong mảng, nếu không tồn tại số chẵn hàm trả về -1.
+/**
+ * Bài 85: Tìm số chẵn cuối cùng trong mảng (không có trả về -1).
+ */
 package lab7;
 
 public class Bt85 {

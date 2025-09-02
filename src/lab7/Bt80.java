@@ -1,4 +1,6 @@
-// 80. Viết hàm tìm vị trí phần tử âm đầu tiên trong mảng. Nếu không có phần tử âm trả về -1.
+/**
+ * Bài 80: Tìm vị trí phần tử âm đầu tiên (không có trả về -1).
+ */
 package lab7;
 
 public class Bt80 {

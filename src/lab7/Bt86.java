@@ -1,4 +1,6 @@
-// 86. Viết hàm tìm số lẻ lớn nhất có trong mảng, nếu không tồn tại số lẻ hàm trả về -1.
+/**
+ * Bài 86: Tìm số lẻ lớn nhất trong mảng (không có trả về -1).
+ */
 package lab7;
 
 public class Bt86 {

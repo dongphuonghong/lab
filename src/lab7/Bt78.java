@@ -1,4 +1,6 @@
-// 78. Viết hàm in vị trí các phần tử nguyên tố trong mảng các số nguyên.
+/**
+ * Bài 78: In vị trí các phần tử nguyên tố trong mảng.
+ */
 package lab7;
 
 public class Bt78 {

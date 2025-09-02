@@ -1,4 +1,6 @@
-// 79. Viết hàm in vị trí các phần tử nguyên tố lớn hơn 23.
+/**
+ * Bài 79: In vị trí các phần tử nguyên tố > 23 trong mảng.
+ */
 package lab7;
 
 public class Bt79 {

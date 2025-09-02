@@ -1,4 +1,6 @@
-// 88. Nhập vào X, viết hàm in ra màn hình những phần tử có giá trị từ 1 đến X có trong mảng.
+/**
+ * Bài 88: Với X nhập vào, in các phần tử có giá trị trong [1, X].
+ */
 package lab7;
 
 import java.util.Scanner;

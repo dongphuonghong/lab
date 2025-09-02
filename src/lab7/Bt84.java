@@ -1,4 +1,6 @@
-// 84. Viết hàm in các phần tử là bội của 3 hoặc 5.
+/**
+ * Bài 84: In các phần tử là bội của 3 hoặc 5.
+ */
 package lab7;
 
 public class Bt84 {

@@ -1,4 +1,6 @@
-// 77. Viết hàm tìm vị trí của phần tử lớn nhất trong mảng các số nguyên.
+/**
+ * Bài 77: Tìm vị trí phần tử lớn nhất trong mảng (nếu nhiều lấy đầu tiên).
+ */
 package lab7;
 
 public class Bt77 {

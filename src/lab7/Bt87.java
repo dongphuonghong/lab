@@ -1,4 +1,6 @@
-// 87. Viết hàm tìm và đổi chỗ phần tử lớn nhất với phần tử nhỏ nhất trong mảng.
+/**
+ * Bài 87: Đổi chỗ phần tử lớn nhất với phần tử nhỏ nhất trong mảng.
+ */
 package lab7;
 
 public class Bt87 {

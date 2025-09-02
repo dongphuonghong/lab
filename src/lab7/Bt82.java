@@ -1,4 +1,6 @@
-// 82. Viết hàm tìm vị trí phần tử dương đầu tiên trong mảng. Nếu không có phần tử dương trả về -1.
+/**
+ * Bài 82: Tìm vị trí phần tử dương đầu tiên trong mảng (không có trả về -1).
+ */
 package lab7;
 
 public class Bt82 {

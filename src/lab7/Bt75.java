@@ -1,4 +1,6 @@
-// 75. Viết hàm tìm vị trí phần tử có giá trị x xuất hiện cuối cùng trong mảng.
+/**
+ * Bài 75: Tìm vị trí xuất hiện cuối cùng của giá trị x trong mảng.
+ */
 package lab7;
 
 import java.util.Scanner;

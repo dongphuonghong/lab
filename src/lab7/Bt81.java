@@ -1,4 +1,6 @@
-// 81. Viết hàm tìm vị trí phần tử âm lớn nhất trong mảng.
+/**
+ * Bài 81: Tìm vị trí phần tử âm lớn nhất (gần 0 nhất) trong mảng.
+ */
 package lab7;
 
 public class Bt81 {
