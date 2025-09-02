@@ -1,5 +1,7 @@
-// 60. Viết chương trình nhập số nguyên dương n gồm k chữ số, tìm ước số lẻ lớn nhất của n.
-// Ví dụ: Ước số lẻ lớn nhất của 27 là 27 (chính nó).
+/**
+ * Bài 60: Nhập số nguyên dương n và tìm ước số lẻ lớn nhất của n.
+ * Ví dụ: n=27 => 27.
+ */
 package lab5;
 
 import java.util.Scanner;
@@ -12,9 +14,9 @@ public class Bt60 {
         int maxLe = timUocSoLeLonNhat(n);
         System.out.println("Uoc so le lon nhat cua " + n + " la: " + maxLe);
     }// end main
-    // Hàm nhập số nguyên dương từ bàn phím
-    // Kiểm tra điều kiện n > 0
-    // Trả về số nguyên hợp lệ
+     // Hàm nhập số nguyên dương từ bàn phím
+     // Kiểm tra điều kiện n > 0
+     // Trả về số nguyên hợp lệ
 
     public static int nhap(String chuoi) {
         int n;

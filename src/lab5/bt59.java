@@ -1,5 +1,7 @@
-// 59. Viết chương trình nhập số nguyên dương n gồm k chữ số, tính tổng các ước số của n.
-// Ví dụ: Nhập n=6, Tổng các ước số từ 1 đến n: 1+2+3+6=12.
+/**
+ * Bài 59: Nhập số nguyên dương n và tính tổng các ước số của n (gồm cả n).
+ * Ví dụ: n=6 => 1+2+3+6 = 12.
+ */
 package lab5;
 
 import java.util.Scanner;

@@ -1,4 +1,6 @@
-// 58. Viết chương trình nhập số nguyên dương n gồm k chữ số, đếm xem n có bao nhiêu chữ số là số nguyên tố.
+/**
+ * Bài 58: Nhập số nguyên dương n và đếm số lượng chữ số nguyên tố (2,3,5,7) trong n.
+ */
 package lab5;
 
 import java.util.Scanner;
@@ -11,9 +13,9 @@ public class Bt58 {
         int d = demSoNguyenTo(n);
         System.out.println("So luong chu so nguyen to trong " + n + " la: " + d);
     }// end main
-    // Hàm nhập số nguyên dương từ bàn phím
-    // Kiểm tra điều kiện n > 0
-    // Trả về số nguyên hợp lệ
+     // Hàm nhập số nguyên dương từ bàn phím
+     // Kiểm tra điều kiện n > 0
+     // Trả về số nguyên hợp lệ
 
     public static int nhap(String chuoi) {
         int n;

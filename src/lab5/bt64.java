@@ -1,4 +1,6 @@
-// 64. Viết chương trình nhập số nguyên dương n gồm k chữ số, sắp xếp các chữ số của n theo thứ tự tăng dần. 
+/**
+ * Bài 64: Nhập số nguyên dương n và sắp xếp các chữ số của n theo thứ tự tăng dần (in dạng từng chữ số).
+ */
 package lab5;
 
 import java.util.Scanner;

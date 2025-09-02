@@ -1,4 +1,6 @@
-// 63. Viết chương trình nhập vào số nguyên dương n, in ra màn hình các số hoàn thiện nhỏ hơn 5000.
+/**
+ * Bài 63: Nhập n và in các số hoàn thiện nhỏ hơn 5000 (nếu n < 5000 thì in theo n, ngược lại thông báo).
+ */
 package lab5;
 
 import java.util.Scanner;

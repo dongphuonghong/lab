@@ -1,4 +1,6 @@
-// 61. Viết chương trình nhập số nguyên dương n gồm k chữ số, kiểm tra xem các chữ số của n có toàn lẻ hay toàn chẵn không.
+/**
+ * Bài 61: Kiểm tra các chữ số của n có toàn chẵn hoặc toàn lẻ hay không.
+ */
 package lab5;
 
 import java.util.Scanner;

@@ -1,5 +1,7 @@
-// 56. Viết chương trình nhập số nguyên dương n gồm 5 chữ số, kiểm tra xem các chữ số n có phải là số đối xứng hay không.
-// Ví dụ: Đối xứng: 13531, Không đối xứng: 13921
+/**
+ * Bài 56: Nhập số nguyên dương n gồm 5 chữ số và kiểm tra n có đối xứng (palindrome) hay không.
+ * Ví dụ: 13531 đối xứng, 13921 không đối xứng.
+ */
 package lab5;
 
 import java.util.Scanner;

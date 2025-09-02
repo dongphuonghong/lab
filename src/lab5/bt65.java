@@ -1,6 +1,7 @@
-// 65. Viết chương trình nhập vào một số nguyên n gồm tối đa 10 chữ số (4 bytes). 
-// In ra màn hình giá trị nhị phân của số trên. 
-// (Hướng dẫn: chia lấy dư cho 2 và xuất theo thứ tự ngược lại).
+/**
+ * Bài 65: Nhập số nguyên không âm (tối đa 32-bit) và in giá trị nhị phân.
+ * Dựa trên chia lấy dư cho 2 và đảo chuỗi kết quả.
+ */
 package lab5;
 
 import java.util.Scanner;

@@ -1,5 +1,6 @@
-// 57. Viết chương trình nhập số nguyên dương n gồm k chữ số, đếm xem n có bao nhiêu chữ số chẵn và bao nhiêu chữ số lẻ.
-// (Với 0 < k <= 5)/ 57. Viêt chương trinh nhâp sô nguyên dương n gôm k chư sô, đêm xem n co bao nhiêu chư sô chăn va bao nhiêu chư sô le.) 5 0 (  k
+/**
+ * Bài 57: Nhập số nguyên dương n (tối đa 5 chữ số) và đếm số chữ số chẵn, lẻ.
+ */
 package lab5;
 
 import java.util.Scanner;
