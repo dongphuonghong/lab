@@ -1,4 +1,6 @@
-// 53. Viết chương trình nhập 2 số nguyên dương a, b. Tìm ƯSCLN và BCNN của hai số đó.
+/**
+ * Bài 53: Nhập hai số nguyên dương a, b và tính UCLN (Euclid) và BCNN.
+ */
 package lab4;
 
 import java.util.Scanner;

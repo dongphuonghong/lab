@@ -1,4 +1,6 @@
-// 54. Viết chương trình tính tổng nghịch đảo của n giai thừa.
+/**
+ * Bài 54: Tính tổng các nghịch đảo giai thừa từ 0! đến n! (chuỗi e mở rộng rút gọn) và in kết quả.
+ */
 package lab4;
 
 import java.util.Scanner;

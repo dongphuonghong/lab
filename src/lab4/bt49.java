@@ -1,4 +1,8 @@
-// 49. Viết chương trình tính tiền thuê máy dịch vụ Internet và in kết quả. Dữ liệu nhập: giờ bắt đầu (GBD), giờ kết thúc (GKT), số máy thuê (SoMay). Điều kiện: 6 <= GBD < GKT <= 21 (giờ nguyên). Đơn giá: 2500đ/giờ trước 17h, 3000đ/giờ từ sau 17h.
+/**
+ * Bài 49: Tính tiền thuê máy Internet dựa trên giờ bắt đầu, giờ kết thúc và số máy.
+ * Đơn giá: trước 17h = 2500đ/giờ/máy; từ 17h trở đi = 3000đ/giờ/máy.
+ * Ràng buộc thời gian: 6 <= GBD < GKT <= 21.
+ */
 package lab4;
 
 import java.util.Scanner;

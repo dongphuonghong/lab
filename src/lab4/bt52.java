@@ -1,6 +1,9 @@
-// 52. Nhập vào 6 số thực a, b, c, d, e, f. Giải hệ phương trình sau:
-// ax + by = c
-// dx + ey = f
+/**
+ * Bài 52: Giải hệ phương trình tuyến tính 2 ẩn:
+ *  ax + by = c
+ *  dx + ey = f
+ * Sử dụng quy tắc Cramer xác định nghiệm hoặc kết luận vô nghiệm / vô số nghiệm.
+ */
 package lab4;
 
 import java.util.Scanner;

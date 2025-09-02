@@ -1,4 +1,7 @@
-// 44. Viết chương trình tính diện tích và chu vi hình tròn với bán kính nhập từ bàn phím.
+/**
+ * Bài 44: Tính diện tích và chu vi hình tròn với bán kính nhập từ bàn phím.
+ * Dùng công thức: S = πr^2, C = 2πr.
+ */
 package lab4;
 
 import java.util.Scanner;

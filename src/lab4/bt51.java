@@ -1,8 +1,7 @@
-// 51. Nhập vào 3 số thực a, b, c và kiểm tra xem chúng có thành lập thành 3 cạnh của một tam giác hay không? 
-// Nếu có thì tính diện tích, chiều dài mỗi đường cao của tam giác và in kết quả ra màn hình.
-// - Công thức tính diện tích: s = sqrt(p*(p-a)*(p-b)*(p-c))
-// - Công thức tính các đường cao: ha = 2s/a, hb = 2s/b, hc = 2s/c
-// (Với p là nửa chu vi của tam giác)
+/**
+ * Bài 51: Nhập vào ba cạnh a, b, c kiểm tra điều kiện tam giác.
+ * Nếu hợp lệ tính diện tích (Heron) và các đường cao tương ứng (ha=2S/a,...).
+ */
 package lab4;
 
 import java.util.Scanner;
@@ -28,9 +27,9 @@ public class Bt51 {
 
         sc.close();
     }// end main
-    // Hàm nhập số thực từ bàn phím
-    // Tham số: chuoi - thông báo hiển thị cho người dùng
-    // Trả về: giá trị số thực được nhập từ bàn phím
+     // Hàm nhập số thực từ bàn phím
+     // Tham số: chuoi - thông báo hiển thị cho người dùng
+     // Trả về: giá trị số thực được nhập từ bàn phím
 
     static Scanner sc = new Scanner(System.in);
 

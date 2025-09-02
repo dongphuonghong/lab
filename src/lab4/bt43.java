@@ -1,4 +1,7 @@
-// 43. Viết chương trình tính diện tích và chu vi hình chữ nhật với chiều dài và chiều rộng nhập từ bàn phím.
+/**
+ * Bài 43: Tính diện tích và chu vi hình chữ nhật với chiều dài và chiều rộng nhập từ bàn phím.
+ * Cung cấp các hàm nhập, tính diện tích (S = dài * rộng) và chu vi (P = (dài + rộng)*2).
+ */
 package lab4;
 
 import java.util.Scanner;

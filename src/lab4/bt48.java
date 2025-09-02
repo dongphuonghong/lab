@@ -1,4 +1,7 @@
-// 48. Nhập số nguyên dương n (0 <= n < 1000) và in ra cách đọc của n.
+/**
+ * Bài 48: Nhập số nguyên dương n (0 <= n < 1000) và in ra cách đọc tiếng Việt của n.
+ * Xử lý cấu trúc hàng trăm, chục, đơn vị với các trường hợp đặc biệt (lẻ, mười, năm...).
+ */
 package lab4;
 
 import java.util.Scanner;

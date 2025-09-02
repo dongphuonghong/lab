@@ -1,4 +1,7 @@
-// 50. Viết chương trình tính tiền lương ngày cho công nhân biết giờ vào ca và giờ ra ca của mỗi người. Trả công: trước 12h = 6000đ/giờ, sau 12h = 7500đ/giờ. Giờ vào sớm nhất 6h, ra trễ nhất 18h (giờ nguyên).
+/**
+ * Bài 50: Tính tiền lương ngày của công nhân dựa trên giờ vào ca và ra ca.
+ * Trước 12h: 6000đ/giờ; từ 12h trở đi: 7500đ/giờ. Khung giờ làm: 6..18.
+ */
 package lab4;
 
 import java.util.Scanner;

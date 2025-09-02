@@ -1,4 +1,7 @@
-// 46. Nhập số nguyên dương n (n > 0). Liệt kê n số chính phương đầu tiên.
+/**
+ * Bài 46: Nhập số nguyên dương n và liệt kê n số chính phương đầu tiên.
+ * Sử dụng kiểm tra căn bậc hai để xác định số chính phương.
+ */
 package lab4;
 
 import java.util.Scanner;

@@ -1,4 +1,7 @@
-// 45. Nhập số nguyên dương n (n > 0). Liệt kê tất cả các số nguyên tố nhỏ hơn n.
+/**
+ * Bài 45: Nhập số nguyên dương n và liệt kê tất cả các số nguyên tố nhỏ hơn n.
+ * Bao gồm hàm kiểm tra số nguyên tố và hàm liệt kê.
+ */
 package lab4;
 
 import java.util.Scanner;

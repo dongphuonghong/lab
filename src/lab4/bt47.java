@@ -1,4 +1,7 @@
-// 47. Nhập số nguyên dương n (n > 0). Đếm xem có bao nhiêu số hoàn thiện < n.
+/**
+ * Bài 47: Nhập số nguyên dương n và đếm số lượng số hoàn thiện nhỏ hơn n.
+ * Số hoàn thiện là số có tổng các ước số dương (không kể chính nó) bằng chính nó.
+ */
 package lab4;
 
 import java.util.Scanner;
