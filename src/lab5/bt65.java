@@ -19,6 +19,12 @@ public class Bt65 {
     // Kiểm tra điều kiện n >= 0
     // Trả về số nguyên hợp lệ
     public static int nhap(String chuoi) {
+        /**
+         * Nhập số nguyên không âm n.
+         *
+         * @param chuoi thông báo nhắc nhập
+         * @return n hợp lệ (>= 0)
+         */
         int n;
         System.out.println(chuoi);
         do {
@@ -37,6 +43,12 @@ public class Bt65 {
     // Các bit được tạo ra theo thứ tự ngược (từ LSB đến MSB)
     // Tham số: n - số thập phân cần chuyển đổi
     // Trả về: chuỗi biểu diễn nhị phân
+    /**
+     * Chuyển số thập phân không âm sang biểu diễn nhị phân.
+     *
+     * @param n số nguyên không âm cần chuyển đổi
+     * @return chuỗi biểu diễn nhị phân của n
+     */
     public static String chuyenSangNhiPhan(int n) {
         StringBuilder binary = new StringBuilder();
         if (n == 0) {

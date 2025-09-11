@@ -17,6 +17,12 @@ public class Bt62 {
      // Trả về số nguyên hợp lệ
 
     public static int nhap(String chuoi) {
+        /**
+         * Nhập số nguyên dương n (> 0).
+         *
+         * @param chuoi thông báo nhắc nhập
+         * @return n hợp lệ (> 0)
+         */
         int n;
         do {
             try (Scanner sc = new Scanner(System.in)) {
@@ -34,6 +40,12 @@ public class Bt62 {
     // Số nguyên tố: số tự nhiên > 1, chỉ chia hết cho 1 và chính nó
     // Tham số: n - số cần kiểm tra
     // Trả về: true nếu là số nguyên tố, false nếu không phải
+    /**
+     * Kiểm tra một số có phải là số nguyên tố.
+     *
+     * @param n số cần kiểm tra
+     * @return true nếu n là số nguyên tố, ngược lại false
+     */
     public static boolean kiemTraNguyenTo(int n) {
         boolean flag = true;
         if (n < 2) {
@@ -48,6 +60,11 @@ public class Bt62 {
         return flag;
     }
 
+    /**
+     * In ra n số nguyên tố đầu tiên.
+     *
+     * @param n số lượng số nguyên tố cần in
+     */
     public static void inSoNguyenToDauTien(int n) {
         int d = 0;
         for (int i = 2; d < n; i++) {

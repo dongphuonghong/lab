@@ -5,9 +5,17 @@ package lab6;
 
 import java.util.Scanner;
 
+/**
+ * Lớp Bt74: In các số chính phương tại vị trí lẻ trong mảng.
+ */
 public class Bt74 {
     static Scanner sc = new Scanner(System.in);
 
+    /**
+     * Điểm vào chương trình: nhập mảng và in các số chính phương ở vị trí lẻ.
+     *
+     * @param args tham số dòng lệnh (không sử dụng)
+     */
     public static void main(String[] args) {
         // Bước 1: Nhập số lượng phần tử của mảng (n > 0)
         int n = nhapSoLuong("Nhập n > 0");

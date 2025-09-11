@@ -6,6 +6,9 @@ package lab5;
 import java.util.Scanner;
 
 public class Bt58 {
+    /**
+     * Bài 58: Đếm số lượng chữ số nguyên tố (2, 3, 5, 7) xuất hiện trong n.
+     */
     public static void main(String[] args) {
         // Nhập số nguyên dương từ bàn phím
         int n = nhap("Nhap so nguyen duong n: ");
@@ -17,6 +20,12 @@ public class Bt58 {
      // Kiểm tra điều kiện n > 0
      // Trả về số nguyên hợp lệ
 
+    /**
+     * Nhập số nguyên dương n (> 0).
+     *
+     * @param chuoi thông báo nhắc nhập
+     * @return n hợp lệ (> 0)
+     */
     public static int nhap(String chuoi) {
         int n;
         do {
@@ -36,6 +45,12 @@ public class Bt58 {
     // Các chữ số nguyên tố: 2, 3, 5, 7
     // Tham số: n - số cần kiểm tra
     // Trả về: true nếu là số nguyên tố, false nếu không phải
+    /**
+     * Kiểm tra một số có phải là số nguyên tố.
+     *
+     * @param n số cần kiểm tra
+     * @return true nếu n là số nguyên tố, ngược lại false
+     */
     public static boolean kiemTraNguyenTo(int n) {
         boolean flag = true;
         if (n < 2) {
@@ -53,6 +68,12 @@ public class Bt58 {
     // Hàm đếm số lượng chữ số nguyên tố trong một số nguyên dương
     // Tham số: n - số nguyên dương cần kiểm tra
     // Trả về: số lượng chữ số nguyên tố trong n
+    /**
+     * Đếm số lượng chữ số nguyên tố (2, 3, 5, 7) xuất hiện trong n.
+     *
+     * @param n số nguyên dương đầu vào
+     * @return số lượng chữ số thuộc {2,3,5,7}
+     */
     public static int demSoNguyenTo(int n) {
         int d = 0;
         while (n > 0) {

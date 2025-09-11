@@ -3,6 +3,9 @@
  */
 package lab7;
 
+/**
+ * Lớp Bt77: Tìm vị trí phần tử lớn nhất trong mảng.
+ */
 public class Bt77 {
     /**
      * Tìm vị trí phần tử lớn nhất trong mảng.

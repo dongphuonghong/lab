@@ -5,6 +5,9 @@ package lab7;
 
 import java.util.Scanner;
 
+/**
+ * Lớp Bt75: Tìm vị trí xuất hiện cuối cùng của phần tử x trong mảng.
+ */
 public class Bt75 {
     static Scanner sc = new Scanner(System.in);
 

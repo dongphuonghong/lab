@@ -5,9 +5,17 @@ package lab6;
 
 import java.util.Scanner;
 
+/**
+ * Lớp Bt70: Nhập mảng số nguyên và in các phần tử âm.
+ */
 public class Bt70 {
     static Scanner sc = new Scanner(System.in);
 
+    /**
+     * Điểm vào chương trình: nhập mảng và in các phần tử âm (nếu có).
+     *
+     * @param args tham số dòng lệnh (không sử dụng)
+     */
     public static void main(String[] args) {
         // Bước 1: Nhập số lượng phần tử của mảng (n > 0)
         int n = nhapSoLuong("Nhập n > 0");

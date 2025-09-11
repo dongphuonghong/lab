@@ -7,9 +7,17 @@ package lab6;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Lớp Bt66: Nhập mảng một chiều số nguyên và in ra mảng đã nhập.
+ */
 public class Bt66 {
     static Scanner sc = new Scanner(System.in);
 
+    /**
+     * Điểm vào chương trình: nhập n, nhập mảng a và in ra.
+     *
+     * @param args tham số dòng lệnh (không sử dụng)
+     */
     public static void main(String[] args) {
         // Bước 1: Nhập số lượng phần tử của mảng (n > 0)
         int n = nhapSoLuong("Nhập n > 0");

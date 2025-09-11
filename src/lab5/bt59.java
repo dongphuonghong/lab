@@ -19,6 +19,12 @@ public class Bt59 {
     // Kiểm tra điều kiện n > 0
     // Trả về số nguyên hợp lệ
     public static int nhap(String chuoi) {
+        /**
+         * Nhập số nguyên dương n (> 0) từ bàn phím.
+         *
+         * @param chuoi thông báo nhắc nhập
+         * @return n hợp lệ (> 0)
+         */
         int n;
         do {
             try (Scanner sc = new Scanner(System.in)) {
@@ -37,6 +43,12 @@ public class Bt59 {
     // Duyệt từ 1 đến n, tìm các số chia hết cho n và cộng dồn
     // Tham số: n - số nguyên dương
     // Trả về: tổng các ước số của n
+    /**
+     * Tính tổng các ước số của n (bao gồm cả n).
+     *
+     * @param n số nguyên dương
+     * @return tổng các ước số của n
+     */
     public static int tinhTongUocSo(int n) {
         int sum = 0;
         for (int i = 1; i <= n; i++) {

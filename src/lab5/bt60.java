@@ -19,6 +19,12 @@ public class Bt60 {
      // Trả về số nguyên hợp lệ
 
     public static int nhap(String chuoi) {
+        /**
+         * Nhập số nguyên dương n (> 0) từ bàn phím.
+         *
+         * @param chuoi thông báo nhắc nhập
+         * @return n hợp lệ (> 0)
+         */
         int n;
         do {
             try (Scanner sc = new Scanner(System.in)) {
@@ -37,6 +43,12 @@ public class Bt60 {
     // Số lẻ: số không chia hết cho 2 (n % 2 != 0)
     // Tham số: n - số nguyên dương
     // Trả về: ước số lẻ lớn nhất của n
+    /**
+     * Tìm ước số lẻ lớn nhất của n.
+     *
+     * @param n số nguyên dương
+     * @return ước số lẻ lớn nhất của n
+     */
     public static int timUocSoLeLonNhat(int n) {
         int maxLe = 1;
         for (int i = 1; i <= n; i++) {

@@ -21,6 +21,12 @@ public class Bt61 {
     // Kiểm tra điều kiện n > 0
     // Trả về số nguyên hợp lệ
     public static int nhap(String chuoi) {
+        /**
+         * Nhập số nguyên dương n (> 0).
+         *
+         * @param chuoi thông báo nhắc nhập
+         * @return n hợp lệ (> 0)
+         */
         int n;
         do {
             try (Scanner sc = new Scanner(System.in)) {
@@ -39,6 +45,12 @@ public class Bt61 {
     // Trả về true nếu toàn chẵn hoặc toàn lẻ, false nếu vừa chẵn vừa lẻ
     // Tham số: n - số nguyên dương
     // Trả về: true/false
+    /**
+     * Kiểm tra các chữ số của n có toàn chẵn hoặc toàn lẻ.
+     *
+     * @param n số nguyên dương
+     * @return true nếu toàn chẵn hoặc toàn lẻ; ngược lại false
+     */
     public static boolean laSoToanChanHoacToanLe(int n) {
         boolean toanChan = true;
         boolean toanLe = true;

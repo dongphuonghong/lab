@@ -17,6 +17,12 @@ public class Bt64 {
      // Trả về số nguyên hợp lệ
 
     public static int nhap(String chuoi) {
+        /**
+         * Nhập số nguyên dương n (>= 0).
+         *
+         * @param chuoi thông báo nhắc nhập
+         * @return n hợp lệ (>= 0)
+         */
         int n;
         do {
             try (Scanner sc = new Scanner(System.in)) {
@@ -34,6 +40,12 @@ public class Bt64 {
     // Sử dụng phương pháp đếm tần suất xuất hiện của từng chữ số (0-9)
     // Sau đó in ra theo thứ tự từ 0 đến 9
     // Tham số: n - số nguyên dương cần sắp xếp chữ số
+    /**
+     * Sắp xếp và in các chữ số của n theo thứ tự tăng dần (dạng từng chữ số cách
+     * nhau bởi dấu cách).
+     *
+     * @param n số nguyên dương cần sắp xếp chữ số
+     */
     public static void sapXepChuSo(int n) {
         int dem0 = 0, dem1 = 0, dem2 = 0, dem3 = 0, dem4 = 0;
         int dem5 = 0, dem6 = 0, dem7 = 0, dem8 = 0, dem9 = 0;

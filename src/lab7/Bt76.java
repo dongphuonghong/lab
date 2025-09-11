@@ -3,6 +3,9 @@
  */
 package lab7;
 
+/**
+ * Lớp Bt76: Tìm vị trí phần tử nhỏ nhất trong mảng.
+ */
 public class Bt76 {
     /**
      * Tìm vị trí phần tử nhỏ nhất trong mảng.

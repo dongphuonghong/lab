@@ -22,6 +22,12 @@ public class Bt63 {
      // Trả về số nguyên hợp lệ
 
     public static int nhap(String chuoi) {
+        /**
+         * Nhập số nguyên dương n (>= 0).
+         *
+         * @param chuoi thông báo nhắc nhập
+         * @return n hợp lệ (>= 0)
+         */
         int n;
         do {
             try (Scanner sc = new Scanner(System.in)) {
@@ -40,6 +46,12 @@ public class Bt63 {
     // Ví dụ: 6 = 1 + 2 + 3, 28 = 1 + 2 + 4 + 7 + 14
     // Tham số: n - số cần kiểm tra
     // Trả về: true nếu là số hoàn thiện, false nếu không phải
+    /**
+     * Kiểm tra n có phải là số hoàn thiện (perfect number).
+     *
+     * @param n số nguyên dương cần kiểm tra
+     * @return true nếu n là số hoàn thiện; ngược lại false
+     */
     public static boolean kiemTraSoHoanThien(int n) {
         int sum = 0; // Tổng các ước số của n (không kể n)
         for (int i = 1; i < n; i++) {
@@ -50,6 +62,9 @@ public class Bt63 {
         return sum == n;
     }
 
+    /**
+     * In ra các số hoàn thiện nhỏ hơn 5000.
+     */
     public static void inSoHoanThienNhoHon5000() {
         for (int i = 1; i < 5000; i++) {
             if (kiemTraSoHoanThien(i)) {

@@ -7,9 +7,17 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * Lớp Bt69: Phát sinh mảng tăng dần ngẫu nhiên.
+ */
 public class Bt69 {
     static Scanner sc = new Scanner(System.in);
 
+    /**
+     * Điểm vào chương trình.
+     *
+     * @param args tham số dòng lệnh (không sử dụng)
+     */
     public static void main(String[] args) {
         // Bước 1: Nhập số lượng phần tử của mảng (n > 0)
         int n = nhapSoLuong("Nhập n > 0");

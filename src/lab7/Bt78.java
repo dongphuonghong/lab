@@ -3,6 +3,9 @@
  */
 package lab7;
 
+/**
+ * Lớp Bt78: In các vị trí phần tử nguyên tố trong mảng.
+ */
 public class Bt78 {
     /**
      * Kiểm tra một số có phải số nguyên tố.

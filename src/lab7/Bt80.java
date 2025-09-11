@@ -3,6 +3,9 @@
  */
 package lab7;
 
+/**
+ * Lớp Bt80: Tìm vị trí phần tử âm đầu tiên trong mảng.
+ */
 public class Bt80 {
     /**
      * Tìm vị trí phần tử âm đầu tiên trong mảng.

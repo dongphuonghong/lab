@@ -6,7 +6,21 @@ package lab5;
 
 import java.util.Scanner;
 
+/**
+ * Lớp Bt56: Kiểm tra một số nguyên dương gồm 5 chữ số có phải là số đối xứng.
+ */
 public class Bt56 {
+    /**
+     * Bài 56: Kiểm tra số nguyên dương gồm 5 chữ số có đối xứng (palindrome) hay
+     * không.
+     * Người dùng nhập n trong khoảng [10000, 99999], chương trình kiểm tra và thông
+     * báo kết quả.
+     */
+    /**
+     * Điểm vào chương trình.
+     *
+     * @param args tham số dòng lệnh (không sử dụng)
+     */
     public static void main(String[] args) {
         // Nhập số nguyên dương gồm 5 chữ số từ bàn phím
         int n = nhap("Nhap so nguyen duong n gom 5 chu so: ");
@@ -22,6 +36,13 @@ public class Bt56 {
      // Trả về số nguyên hợp lệ
 
     public static int nhap(String chuoi) {
+        /**
+         * Nhập số nguyên dương gồm 5 chữ số từ bàn phím.
+         * Lặp lại cho đến khi n nằm trong khoảng hợp lệ [10000, 99999].
+         *
+         * @param chuoi thông báo nhắc nhập
+         * @return giá trị n hợp lệ trong [10000, 99999]
+         */
         int n;
         do {
             try (Scanner sc = new Scanner(System.in)) {
@@ -40,6 +61,12 @@ public class Bt56 {
     // Ví dụ: 12321 → 1=1, 2=2 → đối xứng
     // Tham số: n - số nguyên gồm 5 chữ số
     // Trả về: true nếu đối xứng, false nếu không đối xứng
+    /**
+     * Kiểm tra số nguyên 5 chữ số có phải là số đối xứng (palindrome).
+     *
+     * @param n số nguyên gồm 5 chữ số
+     * @return true nếu n đối xứng, ngược lại false
+     */
     public static boolean kiemTraDoiXung(int n) {
         int trucNgan = n / 10000;
         int Ngan = (n / 1000) % 10;

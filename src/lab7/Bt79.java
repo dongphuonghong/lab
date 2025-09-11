@@ -3,6 +3,9 @@
  */
 package lab7;
 
+/**
+ * Lớp Bt79: In vị trí các phần tử nguyên tố > 23 trong mảng.
+ */
 public class Bt79 {
     /**
      * Kiểm tra một số có phải số nguyên tố.

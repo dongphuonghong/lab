@@ -6,9 +6,17 @@ package lab6;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Lớp Bt67: Khởi tạo mảng số nguyên n phần tử (mặc định 0) và in ra.
+ */
 public class Bt67 {
     static Scanner sc = new Scanner(System.in);
 
+    /**
+     * Điểm vào chương trình.
+     *
+     * @param args tham số dòng lệnh (không sử dụng)
+     */
     public static void main(String[] args) {
         // Bước 1: Nhập số lượng phần tử của mảng (n > 0)
         int n = nhapSoLuong("Nhập n > 0");

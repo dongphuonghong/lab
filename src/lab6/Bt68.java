@@ -7,9 +7,17 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * Lớp Bt68: Phát sinh mảng số nguyên âm ngẫu nhiên trong [-99,-1].
+ */
 public class Bt68 {
     static Scanner sc = new Scanner(System.in);
 
+    /**
+     * Điểm vào chương trình.
+     *
+     * @param args tham số dòng lệnh (không sử dụng)
+     */
     public static void main(String[] args) {
         // Nhập số lượng phần tử của mảng (n > 0)
         int n = nhapSoLuong("Nhập n > 0");
