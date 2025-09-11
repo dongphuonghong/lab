@@ -23,7 +23,8 @@ public class Bt70 {
         int[] a = new int[n];
         nhapMang(a);
         // Bước 3: In mảng ra màn hình
-        xuatMang(a);
+        System.out.println("Cac phan tu am trong mang la: ");
+        inPhanTuAm(a);
         sc.close();
     }// end main
 
@@ -60,34 +61,22 @@ public class Bt70 {
     }
 
     /**
-     * Hàm `xuatMang`: in mảng `a` ra màn hình.
+     * Hàm `xuatMang`: in các phần tử âm trong mảng `a`.
      *
      * @param a mảng số nguyên cần in
      */
-    public static void xuatMang(int[] a) {
+    public static void inPhanTuAm(int[] a) {
         boolean flag = false;
         for (int i = 0; i < a.length; i++) {
-            if (kiemTraAm(a[i])) {
-                if (!flag) {
-                    System.out.print("Mang co cac phan tu am: ");
-                    flag = true;
-                }
+            if (a[i] < 0) {
                 System.out.print(a[i] + " ");
+                flag = true;
             }
         }
         if (!flag) {
-            System.out.print("Mang khong co phan tu am");
+            System.out.print("Khong co phan tu am nao.");
         }
-        System.out.println();
-    }
+        System.out.println(); // In dòng mới sau khi in các phần tử âm
 
-    /**
-     * Kiểm tra xem một số có phải là số âm hay không.
-     * 
-     * @param x số nguyên cần kiểm tra
-     * @return true nếu x < 0, ngược lại false
-     */
-    public static boolean kiemTraAm(int x) {
-        return x < 0;
     }
 }// end classs

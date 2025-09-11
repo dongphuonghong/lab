@@ -12,7 +12,8 @@ public class Bt72 {
         int n = nhap("Nhap n >0");
         int[] a = new int[n];
         nhapMang(a);
-        xuatMang(a);
+        System.out.println("Cac phan tu chan nho hon 20 la: ");
+        inPhanTuChanNhoHon20(a);
         sc.close();
 
     }// end main
@@ -48,34 +49,16 @@ public class Bt72 {
     }
 
     /**
-     * In các phần tử chẵn nhỏ hơn 20 trong mảng hoặc thông báo nếu không có.
+     * In các phần tử chẵn nhỏ hơn 20 của mảng.
      * 
-     * @param a mảng số nguyên cần duyệt
+     * @param a mảng cần in
      */
-    public static void xuatMang(int[] a) {
-        boolean flag = false;
-        for (int value : a) {
-            if (laSoChan(value) && value < 20) {
-                if (!flag) {
-                    System.out.print("Cac so chan nho hon 20 trong mang: ");
-                    flag = true;
-                }
-                System.out.print(value + " ");
+    public static void inPhanTuChanNhoHon20(int[] a) {
+        for(int i: a){
+            if(i % 2 == 0 && i < 20){
+                System.out.print(i + " ");
             }
         }
-        if (!flag) {
-            System.out.println("Khong co so chan nho hon 20 trong mang.");
-        }
-        System.out.println();
     }
 
-    /**
-     * Kiểm tra số có phải là số chẵn.
-     * 
-     * @param x số cần kiểm tra
-     * @return true nếu x chẵn
-     */
-    public static boolean laSoChan(int x) {
-        return x % 2 == 0;
-    }
 }// end class

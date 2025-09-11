@@ -23,7 +23,8 @@ public class Bt71 {
         int[] a = new int[n];
         nhapMang(a);
         // Bước 3: In mảng ra màn hình
-        xuatMang(a);
+        System.out.println("Cac phan tu le trong mang la: ");
+        inPhanTuLe(a);
         sc.close();
     }// end main
 
@@ -60,34 +61,22 @@ public class Bt71 {
     }
 
     /**
-     * Hàm `xuatMang`: in mảng `a` ra màn hình.
+     * Hàm `xuatMang`: in các phần tử lẻ trong mảng `a`.
      *
      * @param a mảng số nguyên cần in
      */
-    public static void xuatMang(int[] a) {
+    public static void inPhanTuLe(int[] a) {
         boolean flag = false;
         for (int i = 0; i < a.length; i++) {
-            if (laSoLe(a[i])) {
-                if (!flag) {
-                    System.out.print("Cac so le trong mang: ");
-                    flag = true;
-                }
+            if (a[i] % 2 != 0) {
                 System.out.print(a[i] + " ");
+                flag = true;
             }
         }
         if (!flag) {
-            System.out.println("Khong co so le trong mang.");
+            System.out.print("Khong co phan tu le nao.");
         }
-        System.out.println();
+        System.out.println(); // Xuống dòng sau khi in xong
     }
 
-    /**
-     * Kiểm tra số lẻ.
-     * 
-     * @param x số nguyên cần kiểm tra
-     * @return true nếu x là số lẻ, ngược lại false
-     */
-    public static boolean laSoLe(int x) {
-        return x % 2 != 0;
-    }
 }// end class

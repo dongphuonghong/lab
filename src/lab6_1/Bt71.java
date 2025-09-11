@@ -12,7 +12,8 @@ public class Bt71 {
         int n = nhap("Nhap n >0");
         int[] a = new int[n];
         nhapMang(a);
-        xuatMang(a);
+        System.out.println("Cac so le trong mang la: ");
+        inSoLe(a);
         sc.close();
 
     }// end main
@@ -52,31 +53,17 @@ public class Bt71 {
      * 
      * @param a mảng số nguyên cần duyệt
      */
-    public static void xuatMang(int[] a) {
+    public static void inSoLe(int[] a) {
         boolean flag = false;
-        for (int value : a) {
-            if (laSoLe(value)) {
-                if (!flag) {
-                    System.out.print("Cac so le trong mang: ");
-                    flag = true;
-                }
-                System.out.print(value + " ");
-
+        for (int i : a) {
+            if (i % 2 != 0) {
+                System.out.print(i + " ");
+                flag = true;
             }
         }
         if (!flag) {
             System.out.println("Khong co so le trong mang.");
         }
         System.out.println();
-    }
-
-    /**
-     * Kiểm tra số có phải là số lẻ.
-     * 
-     * @param x số cần kiểm tra
-     * @return true nếu x là số lẻ
-     */
-    public static boolean laSoLe(int x) {
-        return x % 2 != 0;
     }
 }// end class

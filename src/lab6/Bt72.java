@@ -62,37 +62,16 @@ public class Bt72 {
     }
 
     /**
-     * Hàm `inSoChanNhoHon20`: duyệt mảng `a` và in ra các phần tử chẵn < 20.
-     * Nếu không có số nào thỏa điều kiện, in thông báo "Mảng không có số chẵn nhỏ
-     * hơn 20."
+     * Hàm `inSoChanNhoHon20`: in các phần tử chẵn nhỏ hơn 20 trong mảng `a`.
      * 
-     * @param a mảng số nguyên cần xử lý
+     * @param a mảng số nguyên
      */
     public static void inSoChanNhoHon20(int[] a) {
-        boolean flag = false;
         for (int i = 0; i < a.length; i++) {
-            if (laSoChan(a[i]) && a[i] < 20) { // Kiểm tra nếu phần tử là số chẵn và nhỏ hơn 20
-                if (!flag) {
-                    System.out.print("Cac so chan nho hon 20 trong mang: ");
-                    flag = true;
-                }
+            if (a[i] < 20 && a[i] % 2 == 0) {
                 System.out.print(a[i] + " ");
-
             }
         }
-        if (!flag) {
-            System.out.println("Khong co so chan nho hon 20 trong mang.");
-        }
         System.out.println();
-    }
-
-    /**
-     * Kiểm tra số chẵn.
-     * 
-     * @param x số nguyên cần kiểm tra
-     * @return true nếu x chia hết cho 2, ngược lại false
-     */
-    public static boolean laSoChan(int x) {
-        return x % 2 == 0;
     }
 }// end class
